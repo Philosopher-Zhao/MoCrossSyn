@@ -38,13 +38,14 @@ Key libraries and versions:
 ```markdown
 ├── torch              1.12.0+cu113
 ├── torch-geometric    2.5.3
-├── torch-scatter      2.1.1
+├── torch-scatter      2.1.2
 ├── torch-sparse       0.6.18
-├── networkx           3.2.1
-├── scikit-learn       1.4.2
+├── numpy              1.26.4
 ├── pandas             1.2.4
-├── matplotlib         3.4.3
-└── numpy              1.26.4        
+├── scikit-learn       1.4.2
+├── rdkit              2024.9.5
+├── pyyaml             6.0.2
+└── scipy              1.10.1     
 ```
 
 ### Step 1: Download Code and Data
