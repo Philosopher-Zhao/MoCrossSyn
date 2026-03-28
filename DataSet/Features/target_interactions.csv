@@ -1,0 +1,1306 @@
+﻿node1,node2,combined_score
+1-phosphatidylinositol 3-phosphate 5-kinase,Amyloid-beta precursor protein,0.7
+11-beta-hydroxysteroid dehydrogenase 1,Glucocorticoid receptor,0.852
+11-beta-hydroxysteroid dehydrogenase 1,3-oxo-5-alpha-steroid 4-dehydrogenase 1,0.828
+11-beta-hydroxysteroid dehydrogenase 1,Mineralocorticoid receptor,0.805
+11-beta-hydroxysteroid dehydrogenase 1,Cytochrome P450 1A1,0.931
+11-beta-hydroxysteroid dehydrogenase 1,Cytochrome P450 3A4,0.941
+3-oxo-5-alpha-steroid 4-dehydrogenase 1,3-oxo-5-alpha-steroid 4-dehydrogenase 2,0.935
+3-oxo-5-alpha-steroid 4-dehydrogenase 1,Aromatase,0.972
+3-oxo-5-alpha-steroid 4-dehydrogenase 2,Androgen receptor,0.821
+3-oxo-5-alpha-steroid 4-dehydrogenase 2,Aromatase,0.961
+3-phosphoinositide-dependent protein kinase 1,Protein kinase C theta type,0.905
+3-phosphoinositide-dependent protein kinase 1,Heat shock protein HSP 90-alpha,0.845
+3-phosphoinositide-dependent protein kinase 1,Protein kinase C beta type,0.728
+3-phosphoinositide-dependent protein kinase 1,Serine/threonine-protein kinase mTOR,0.848
+3-phosphoinositide-dependent protein kinase 1,Inhibitor of nuclear factor kappa-B kinase subunit alpha,0.922
+3-phosphoinositide-dependent protein kinase 1,Inhibitor of nuclear factor kappa-B kinase subunit beta,0.924
+3-phosphoinositide-dependent protein kinase 1,RAC-gamma serine/threonine-protein kinase,0.939
+3-phosphoinositide-dependent protein kinase 1,Protein kinase C alpha type,0.943
+3-phosphoinositide-dependent protein kinase 1,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit gamma isoform",0.967
+3-phosphoinositide-dependent protein kinase 1,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit beta isoform",0.973
+3-phosphoinositide-dependent protein kinase 1,RAC-alpha serine/threonine-protein kinase,0.999
+5'-nucleotidase,Nicotinamide phosphoribosyltransferase,0.904
+5'-nucleotidase,Orotate phosphoribosyltransferase,0.905
+5'-nucleotidase,Adenosine deaminase,0.919
+5'-nucleotidase,Thymidylate synthase,0.922
+5'-nucleotidase,Inosine-5'-monophosphate dehydrogenase 1,0.923
+5'-nucleotidase,Inosine-5'-monophosphate dehydrogenase 2,0.924
+5-hydroxytryptamine receptor 1A,Sodium-dependent serotonin transporter,0.968
+5-hydroxytryptamine receptor 1A,Sodium-dependent dopamine transporter,0.792
+5-hydroxytryptamine receptor 1A,5-hydroxytryptamine receptor 7,0.701
+5-hydroxytryptamine receptor 1A,Transient receptor potential cation channel subfamily V member 1,0.74
+5-hydroxytryptamine receptor 1A,5-hydroxytryptamine receptor 3A,0.748
+5-hydroxytryptamine receptor 1A,5-hydroxytryptamine receptor 1B,0.914
+5-hydroxytryptamine receptor 1A,5-hydroxytryptamine receptor 2A,0.92
+5-hydroxytryptamine receptor 1A,Fibroblast growth factor receptor 1,0.951
+5-hydroxytryptamine receptor 1B,5-hydroxytryptamine receptor 2B,0.725
+5-hydroxytryptamine receptor 1B,Sodium-dependent serotonin transporter,0.932
+5-hydroxytryptamine receptor 1B,Sodium-dependent dopamine transporter,0.748
+5-hydroxytryptamine receptor 1B,5-hydroxytryptamine receptor 2C,0.721
+5-hydroxytryptamine receptor 1B,5-hydroxytryptamine receptor 1E,0.749
+5-hydroxytryptamine receptor 1B,5-hydroxytryptamine receptor 3A,0.742
+5-hydroxytryptamine receptor 1B,5-hydroxytryptamine receptor 2A,0.839
+5-hydroxytryptamine receptor 1B,5-hydroxytryptamine receptor 1D,0.952
+5-hydroxytryptamine receptor 1D,Sodium-dependent serotonin transporter,0.921
+5-hydroxytryptamine receptor 1D,5-hydroxytryptamine receptor 1E,0.742
+5-hydroxytryptamine receptor 1D,5-hydroxytryptamine receptor 3A,0.793
+5-hydroxytryptamine receptor 1E,5-hydroxytryptamine receptor 5A,0.72
+5-hydroxytryptamine receptor 1E,5-hydroxytryptamine receptor 3A,0.784
+5-hydroxytryptamine receptor 2A,5-hydroxytryptamine receptor 2B,0.962
+5-hydroxytryptamine receptor 2A,Sodium-dependent serotonin transporter,0.961
+5-hydroxytryptamine receptor 2A,Sodium-dependent dopamine transporter,0.708
+5-hydroxytryptamine receptor 2A,5-hydroxytryptamine receptor 2C,0.991
+5-hydroxytryptamine receptor 2A,5-hydroxytryptamine receptor 3A,0.881
+5-hydroxytryptamine receptor 2A,D(2) dopamine receptor,0.799
+5-hydroxytryptamine receptor 2A,Voltage gated L-type calcium channel,0.909
+5-hydroxytryptamine receptor 2B,Type-1 angiotensin II receptor,0.746
+5-hydroxytryptamine receptor 2B,5-hydroxytryptamine receptor 3A,0.78
+5-hydroxytryptamine receptor 2B,Sodium-dependent serotonin transporter,0.872
+5-hydroxytryptamine receptor 2B,Voltage gated L-type calcium channel,0.902
+5-hydroxytryptamine receptor 2B,5-hydroxytryptamine receptor 2C,0.977
+5-hydroxytryptamine receptor 2C,Sodium-dependent serotonin transporter,0.914
+5-hydroxytryptamine receptor 2C,5-hydroxytryptamine receptor 3A,0.804
+5-hydroxytryptamine receptor 2C,Voltage gated L-type calcium channel,0.905
+5-hydroxytryptamine receptor 3A,Glutamate (NMDA) receptor,0.748
+5-hydroxytryptamine receptor 3A,Sodium-dependent serotonin transporter,0.726
+5-hydroxytryptamine receptor 3A,"Glutamate receptor ionotropic, NMDA 2D",0.78
+5-hydroxytryptamine receptor 3A,5-hydroxytryptamine receptor 5A,0.739
+5-hydroxytryptamine receptor 3A,"Glutamate receptor ionotropic, NMDA 2A",0.84
+5-hydroxytryptamine receptor 3A,5-hydroxytryptamine receptor 7,0.725
+5-hydroxytryptamine receptor 3A,"Glutamate receptor ionotropic, NMDA 3A",0.779
+5-hydroxytryptamine receptor 3A,"Glutamate receptor ionotropic, NMDA 1",0.787
+5-hydroxytryptamine receptor 3A,Glutamate receptor 1,0.814
+5-hydroxytryptamine receptor 3A,"Glutamate receptor ionotropic, NMDA 2B",0.818
+5-hydroxytryptamine receptor 6,5-hydroxytryptamine receptor 7,0.925
+6-pyruvoyl tetrahydrobiopterin synthase,Proto-oncogene tyrosine-protein kinase Src,0.852
+6-pyruvoyl tetrahydrobiopterin synthase,Tyrosine-protein phosphatase non-receptor type 1,0.899
+6-pyruvoyl tetrahydrobiopterin synthase,Carbonyl reductase [NADPH] 1,0.918
+ALK tyrosine kinase receptor,Signal transducer and activator of transcription 3,0.893
+ALK tyrosine kinase receptor,Cellular tumor antigen p53,0.772
+ALK tyrosine kinase receptor,Receptor tyrosine-protein kinase erbB-2,0.775
+ALK tyrosine kinase receptor,Heat shock protein HSP 90-alpha,0.762
+ALK tyrosine kinase receptor,Heat shock protein HSP 90-beta,0.756
+ALK tyrosine kinase receptor,Proto-oncogene tyrosine-protein kinase Src,0.813
+ALK tyrosine kinase receptor,Tyrosine-protein kinase JAK2,0.936
+ALK tyrosine kinase receptor,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit beta isoform",0.935
+ALK tyrosine kinase receptor,GTPase HRas,0.966
+"ATP synthase subunit alpha, mitochondrial","ATP synthase subunit beta, mitochondrial",0.999
+"ATP synthase subunit alpha, mitochondrial",Large ribosomal subunit protein uL3,0.831
+"ATP synthase subunit alpha, mitochondrial","ATP synthase subunit gamma, mitochondrial",0.999
+"ATP synthase subunit alpha, mitochondrial",Heat shock protein HSP 90-beta,0.706
+"ATP synthase subunit beta, mitochondrial",Heat shock protein HSP 90-beta,0.756
+"ATP synthase subunit beta, mitochondrial",Steroid hormone receptor ERR1,0.833
+"ATP synthase subunit beta, mitochondrial","ATP synthase subunit gamma, mitochondrial",0.999
+"ATP synthase subunit gamma, mitochondrial",Large ribosomal subunit protein uL3,0.741
+ATP-dependent translocase ABCB1,Solute carrier organic anion transporter family member 1B1,0.883
+ATP-dependent translocase ABCB1,Cytochrome P450 2C9,0.742
+ATP-dependent translocase ABCB1,Solute carrier organic anion transporter family member 1B3,0.844
+ATP-dependent translocase ABCB1,Signal transducer and activator of transcription 3,0.8
+ATP-dependent translocase ABCB1,Nuclear receptor subfamily 1 group I member 2,0.842
+ATP-dependent translocase ABCB1,Cytochrome P450 3A4,0.886
+Acetylcholine receptor subunit alpha,Neuronal acetylcholine receptor subunit alpha-2,0.726
+Acetylcholine receptor subunit alpha,Neuronal acetylcholine receptor subunit alpha-6,0.759
+Acetylcholine receptor subunit alpha,Neuronal acetylcholine receptor subunit beta-2,0.762
+Acetylcholine receptor subunit alpha,Neuronal acetylcholine receptor subunit beta-4,0.767
+Acetylcholine receptor subunit alpha,Neuronal acetylcholine receptor subunit alpha-4,0.812
+Acetylcholine receptor subunit alpha,Neuronal acetylcholine receptor subunit alpha-3,0.844
+"Actin, cytoplasmic 1",Mitogen-activated protein kinase 1,0.767
+"Actin, cytoplasmic 1",NF-kappa-B inhibitor alpha,0.823
+"Actin, cytoplasmic 1",Signal transducer and activator of transcription 3,0.798
+"Actin, cytoplasmic 1",Cyclin-dependent kinase 2,0.816
+"Actin, cytoplasmic 1",Cellular tumor antigen p53,0.879
+"Actin, cytoplasmic 1",Receptor tyrosine-protein kinase erbB-2,0.932
+"Actin, cytoplasmic 1",Epidermal growth factor receptor,0.839
+"Actin, cytoplasmic 1",Amyloid-beta precursor protein,0.801
+"Actin, cytoplasmic 1",Peroxisome proliferator-activated receptor gamma,0.971
+"Actin, cytoplasmic 1",Angiotensin-converting enzyme,0.765
+"Actin, cytoplasmic 1",Insulin receptor,0.726
+"Actin, cytoplasmic 1",Heat shock protein HSP 90-alpha,0.967
+"Actin, cytoplasmic 1",Tubulin beta chain,0.844
+"Actin, cytoplasmic 1",Serine/threonine-protein kinase mTOR,0.752
+"Actin, cytoplasmic 1",Poly [ADP-ribose] polymerase 1,0.794
+"Actin, cytoplasmic 1",Prostaglandin G/H synthase 2,0.728
+"Actin, cytoplasmic 1",Heat shock protein HSP 90-beta,0.911
+"Actin, cytoplasmic 1",Matrix metalloproteinase-9,0.778
+"Actin, cytoplasmic 1",Histone deacetylase 1,0.766
+"Actin, cytoplasmic 1",Proto-oncogene tyrosine-protein kinase Src,0.774
+"Actin, cytoplasmic 1",Histone deacetylase 6,0.716
+"Actin, cytoplasmic 1",Annexin A1,0.7
+"Actin, cytoplasmic 1",Estrogen receptor,0.947
+"Actin, cytoplasmic 1",Protein kinase C alpha type,0.955
+"Actin, cytoplasmic 1",Hypoxia-inducible factor 1-alpha,0.787
+"Actin, cytoplasmic 1",RAC-alpha serine/threonine-protein kinase,0.923
+"Actin, cytoplasmic 1",RuvB-like 2,0.995
+"Actin, cytoplasmic 1","Glutamate receptor ionotropic, NMDA 2B",0.738
+Adenosine deaminase,Adenosine receptor A1,0.831
+Adenosine deaminase,Xanthine dehydrogenase/oxidase,0.761
+Adenosine deaminase,Adenosine receptor A2a,0.907
+Adenosine receptor A1,Adenosine receptor A3,0.907
+Adenosine receptor A1,D(1A) dopamine receptor,0.702
+Adenosine receptor A1,Adenosine receptor A2a,0.784
+Adenosine receptor A2a,Adenosine receptor A2b,0.937
+Adenosine receptor A2a,D(2) dopamine receptor,0.997
+Adenosine receptor A2a,Fibroblast growth factor receptor 1,0.718
+Aldehyde dehydrogenase family 3 member A2,"Aldehyde dehydrogenase, mitochondrial",0.932
+"Aldehyde dehydrogenase, mitochondrial",Sodium-dependent serotonin transporter,0.763
+Aldehyde oxidase,Cytochrome P450 2C9,0.964
+Aldehyde oxidase,Cytochrome P450 1A1,0.941
+Aldehyde oxidase,Cytochrome P450 3A4,0.956
+Alpha-1-acid glycoprotein 1,Serotransferrin,0.731
+Alpha-1-acid glycoprotein 1,Cytochrome P450 3A4,0.745
+Alpha-1-acid glycoprotein 1,Alpha-2-macroglobulin,0.809
+Alpha-1B adrenergic receptor,Alpha-1D adrenergic receptor,0.949
+Alpha-1D adrenergic receptor,Type-1 angiotensin II receptor,0.77
+Alpha-2-macroglobulin,Vitamin K-dependent protein C,0.931
+Alpha-2-macroglobulin,Collagenase 3,0.786
+Alpha-2-macroglobulin,Amyloid-beta precursor protein,0.905
+Alpha-2-macroglobulin,Prothrombin,0.7
+Alpha-2-macroglobulin,Plasminogen,0.779
+Alpha-2-macroglobulin,Prostate-specific antigen,0.967
+Alpha-2-macroglobulin,Interstitial collagenase,0.796
+Alpha-2-macroglobulin,Neutrophil elastase,0.735
+Alpha-2-macroglobulin,Serotransferrin,0.82
+Alpha-2-macroglobulin,Matrix metalloproteinase-9,0.845
+Alpha-2A adrenergic receptor,Sodium-dependent serotonin transporter,0.716
+Alpha-2A adrenergic receptor,Sodium-dependent dopamine transporter,0.832
+Alpha-2A adrenergic receptor,Dopamine beta-hydroxylase,0.711
+Alpha-2A adrenergic receptor,Alpha-2C adrenergic receptor,0.781
+Alpha-2C adrenergic receptor,Sodium-dependent dopamine transporter,0.797
+Amyloid-beta precursor protein,Mitogen-activated protein kinase 1,0.827
+Amyloid-beta precursor protein,Gamma-secretase subunit APH-1B,0.866
+Amyloid-beta precursor protein,Signal transducer and activator of transcription 3,0.753
+Amyloid-beta precursor protein,Cellular tumor antigen p53,0.714
+Amyloid-beta precursor protein,Epidermal growth factor receptor,0.889
+Amyloid-beta precursor protein,Neuronal acetylcholine receptor subunit alpha-7,0.716
+Amyloid-beta precursor protein,Disintegrin and metalloproteinase domain-containing protein 17,0.733
+Amyloid-beta precursor protein,Type-1 angiotensin II receptor,0.734
+Amyloid-beta precursor protein,GABA(A) Receptor Benzodiazepine Binding Site,0.736
+Amyloid-beta precursor protein,"Glutamate receptor ionotropic, NMDA 1",0.776
+Amyloid-beta precursor protein,Serine protease 1,0.822
+Amyloid-beta precursor protein,"Glutamate receptor ionotropic, NMDA 2A",0.848
+Amyloid-beta precursor protein,Proto-oncogene tyrosine-protein kinase Src,0.864
+Amyloid-beta precursor protein,"Glutamate receptor ionotropic, NMDA 2B",0.872
+Amyloid-beta precursor protein,Gamma-secretase subunit PEN-2,0.986
+Amyloid-beta precursor protein,Gamma-secretase subunit APH-1A,0.986
+Amyloid-beta precursor protein,Nicastrin,0.998
+Amyloid-beta precursor protein,Presenilin-1,0.999
+Androgen receptor,Glucocorticoid receptor,0.795
+Androgen receptor,E3 ubiquitin-protein ligase Mdm2,0.998
+Androgen receptor,Bromodomain-containing protein 4,0.969
+Androgen receptor,DNA topoisomerase 2,0.774
+Androgen receptor,Signal transducer and activator of transcription 3,0.907
+Androgen receptor,Cellular tumor antigen p53,0.905
+Androgen receptor,Receptor tyrosine-protein kinase erbB-2,0.788
+Androgen receptor,Epidermal growth factor receptor,0.864
+Androgen receptor,Prostate-specific antigen,0.995
+Androgen receptor,Progesterone receptor,0.766
+Androgen receptor,Transcription factor Sp1,0.837
+Androgen receptor,Heat shock protein HSP 90-alpha,0.999
+Androgen receptor,Mineralocorticoid receptor,0.71
+Androgen receptor,Heat shock protein HSP 90-beta,0.999
+Androgen receptor,Histone deacetylase 1,0.964
+Androgen receptor,Proto-oncogene tyrosine-protein kinase Src,0.985
+Androgen receptor,Protein kinase C beta type,0.731
+Androgen receptor,Aromatase,0.787
+Androgen receptor,Insulin-like growth factor 1 receptor,0.808
+Androgen receptor,Nuclear receptor subfamily 0 group B member 1,0.865
+Androgen receptor,Hypoxia-inducible factor 1-alpha,0.871
+Androgen receptor,RAC-alpha serine/threonine-protein kinase,0.895
+Androgen receptor,Estrogen receptor,0.981
+Angiopoietin-1 receptor,Vascular endothelial growth factor receptor 2,0.744
+Angiopoietin-1 receptor,Fibroblast growth factor 1,0.825
+Angiotensin-converting enzyme,B1 bradykinin receptor,0.874
+Angiotensin-converting enzyme,Xanthine dehydrogenase/oxidase,0.724
+Angiotensin-converting enzyme,Matrix metalloproteinase-9,0.733
+Angiotensin-converting enzyme,Calmodulin,0.76
+Angiotensin-converting enzyme,E-selectin,0.774
+Angiotensin-converting enzyme,Natriuretic peptides B,0.81
+Angiotensin-converting enzyme,Disintegrin and metalloproteinase domain-containing protein 17,0.823
+Angiotensin-converting enzyme,Mineralocorticoid receptor,0.891
+Angiotensin-converting enzyme,Type-1 angiotensin II receptor,0.974
+Annexin A1,Cellular tumor antigen p53,0.762
+Annexin A1,Epidermal growth factor receptor,0.802
+Annexin A1,Proto-oncogene tyrosine-protein kinase Src,0.774
+Arachidonate 5-lipoxygenase-activating protein,Cysteinyl leukotriene receptor 1,0.787
+Aromatase,Receptor tyrosine-protein kinase erbB-2,0.809
+Aromatase,Progesterone receptor,0.883
+Aromatase,Estrogen receptor beta,0.925
+Aromatase,Nuclear receptor subfamily 0 group B member 1,0.765
+Aromatase,Sex hormone-binding globulin,0.769
+Aromatase,Cytochrome P450 1A1,0.953
+Aromatase,Cytochrome P450 1B1,0.739
+Aromatase,RAC-alpha serine/threonine-protein kinase,0.748
+Aromatase,Estrogen receptor,0.927
+Aromatase,Cytochrome P450 3A4,0.95
+Aryl hydrocarbon receptor,Cytochrome P450 1B1,0.763
+Aryl hydrocarbon receptor,Estrogen receptor,0.906
+Aryl hydrocarbon receptor,Cytochrome P450 1A1,0.973
+Aryl hydrocarbon receptor,Heat shock protein HSP 90-alpha,0.992
+Aryl hydrocarbon receptor,Heat shock protein HSP 90-beta,0.995
+Aurora kinase A,Thymidylate synthase,0.729
+Aurora kinase A,GTPase HRas,0.744
+Aurora kinase A,Serine/threonine-protein kinase Chk1,0.754
+Aurora kinase A,Estrogen receptor,0.769
+Aurora kinase A,Aurora kinase C,0.8
+Aurora kinase A,Centromere-associated protein E,0.869
+Aurora kinase A,Cyclin-dependent kinase 2,0.886
+Aurora kinase A,Aurora kinase B,0.922
+Aurora kinase A,Histone deacetylase 6,0.944
+Aurora kinase A,Cyclin-dependent kinase 1,0.951
+Aurora kinase A,DNA topoisomerase 2-alpha,0.963
+Aurora kinase A,Baculoviral IAP repeat-containing protein 5,0.993
+Aurora kinase A,Inner centromere protein,0.994
+Aurora kinase A,Cellular tumor antigen p53,0.998
+Aurora kinase B,Centromere-associated protein E,0.975
+Aurora kinase B,Cellular tumor antigen p53,0.908
+Aurora kinase B,Baculoviral IAP repeat-containing protein 5,0.999
+Aurora kinase B,Aurora kinase C,0.926
+Aurora kinase B,Thymidylate synthase,0.738
+Aurora kinase B,Serine/threonine-protein kinase Chk1,0.754
+Aurora kinase B,DNA repair protein RAD51 homolog 1,0.785
+Aurora kinase B,Heat shock protein HSP 90-alpha,0.88
+Aurora kinase B,Heat shock protein HSP 90-beta,0.884
+Aurora kinase B,DNA topoisomerase 2-alpha,0.97
+Aurora kinase B,Cyclin-dependent kinase 1,0.997
+Aurora kinase B,Inner centromere protein,0.999
+Aurora kinase C,Baculoviral IAP repeat-containing protein 5,0.972
+Aurora kinase C,Cyclin-dependent kinase 1,0.858
+Aurora kinase C,Inner centromere protein,0.999
+B1 bradykinin receptor,Prothrombin,0.909
+Baculoviral IAP repeat-containing protein 5,Signal transducer and activator of transcription 3,0.796
+Baculoviral IAP repeat-containing protein 5,Centromere-associated protein E,0.963
+Baculoviral IAP repeat-containing protein 5,Cyclin-dependent kinase 2,0.755
+Baculoviral IAP repeat-containing protein 5,Cellular tumor antigen p53,0.93
+Baculoviral IAP repeat-containing protein 5,Receptor tyrosine-protein kinase erbB-2,0.7
+Baculoviral IAP repeat-containing protein 5,Ubiquitin-conjugating enzyme E2 T,0.72
+Baculoviral IAP repeat-containing protein 5,Serine/threonine-protein kinase Chk1,0.815
+Baculoviral IAP repeat-containing protein 5,DNA repair protein RAD51 homolog 1,0.853
+Baculoviral IAP repeat-containing protein 5,Thymidylate synthase,0.862
+Baculoviral IAP repeat-containing protein 5,DNA topoisomerase 2-alpha,0.976
+Baculoviral IAP repeat-containing protein 5,Cyclin-dependent kinase 1,0.997
+Baculoviral IAP repeat-containing protein 5,Inner centromere protein,0.999
+Beta-1 adrenergic receptor,Beta-2 adrenergic receptor,0.956
+Beta-2 adrenergic receptor,Glucocorticoid receptor,0.727
+Beta-2 adrenergic receptor,Receptor tyrosine-protein kinase erbB-2,0.822
+Beta-2 adrenergic receptor,Prostaglandin E2 receptor EP1 subtype,0.704
+Beta-2 adrenergic receptor,Glutamate receptor 1,0.706
+Beta-2 adrenergic receptor,Mu-type opioid receptor,0.743
+Beta-2 adrenergic receptor,Type-1 angiotensin II receptor,0.873
+Beta-2 adrenergic receptor,Proto-oncogene tyrosine-protein kinase Src,0.955
+Betaine--homocysteine S-methyltransferase 1,"Folylpolyglutamate synthase, mitochondrial",0.81
+Breakpoint cluster region protein,Mast/stem cell growth factor receptor Kit,0.807
+Breakpoint cluster region protein,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit gamma isoform",0.732
+Breakpoint cluster region protein,Tyrosine-protein kinase ABL1,0.996
+Bromodomain testis-specific protein,Bromodomain-containing protein 4,0.926
+Bromodomain-containing protein 4,Histone deacetylase 2,0.754
+Bromodomain-containing protein 4,DNA topoisomerase 1,0.764
+Bromodomain-containing protein 4,Poly [ADP-ribose] polymerase 1,0.766
+Bromodomain-containing protein 4,Signal transducer and activator of transcription 3,0.826
+Bromodomain-containing protein 4,DNA topoisomerase 2-alpha,0.87
+Bromodomain-containing protein 4,Histone deacetylase 1,0.954
+Bromodomain-containing protein 4,Cellular tumor antigen p53,0.99
+C-C chemokine receptor type 5,Signal transducer and activator of transcription 3,0.82
+C-C chemokine receptor type 5,Tyrosine-protein kinase JAK2,0.898
+CCAAT/enhancer-binding protein beta,Mitogen-activated protein kinase 1,0.877
+CCAAT/enhancer-binding protein beta,NF-kappa-B inhibitor alpha,0.744
+CCAAT/enhancer-binding protein beta,Glucocorticoid receptor,0.886
+CCAAT/enhancer-binding protein beta,Signal transducer and activator of transcription 3,0.984
+CCAAT/enhancer-binding protein beta,Cellular tumor antigen p53,0.862
+CCAAT/enhancer-binding protein beta,Peroxisome proliferator-activated receptor gamma,0.989
+CCAAT/enhancer-binding protein beta,Prostaglandin G/H synthase 2,0.706
+CCAAT/enhancer-binding protein beta,Retinoic acid receptor RXR-alpha,0.762
+CCAAT/enhancer-binding protein beta,Transcription factor Sp1,0.798
+CCAAT/enhancer-binding protein beta,Estrogen receptor,0.908
+CCAAT/enhancer-binding protein beta,Histone deacetylase 1,0.991
+Calcipressin-1,Calmodulin,0.775
+Calmodulin,Potassium voltage-gated channel subfamily KQT member 1,0.999
+Calmodulin,"Glycogen phosphorylase, muscle form",0.868
+Calmodulin,"Glutamate receptor ionotropic, NMDA 2D",0.755
+Calmodulin,Histone deacetylase 4,0.741
+Calmodulin,Epidermal growth factor receptor,0.859
+Calmodulin,Gap junction alpha-1 protein,0.81
+Calmodulin,Serine/threonine-protein kinase mTOR,0.714
+Calmodulin,Protein kinase C alpha type,0.73
+Calmodulin,D(2) dopamine receptor,0.756
+Calmodulin,RAC-alpha serine/threonine-protein kinase,0.802
+Calmodulin,Proto-oncogene tyrosine-protein kinase Src,0.858
+Calmodulin,"Glutamate receptor ionotropic, NMDA 2A",0.901
+Calmodulin,"Glutamate receptor ionotropic, NMDA 2B",0.91
+Calmodulin,Voltage-dependent T-type calcium channel subunit alpha-1H,0.957
+Calmodulin,GTPase HRas,0.965
+Calmodulin,Voltage-dependent R-type calcium channel subunit alpha-1E,0.971
+Calmodulin,Voltage-dependent N-type calcium channel subunit alpha-1B,0.978
+Calmodulin,Voltage gated L-type calcium channel,0.99
+Calmodulin,Estrogen receptor,0.995
+Calmodulin,Heat shock protein HSP 90-beta,0.995
+Calmodulin,Heat shock protein HSP 90-alpha,0.996
+Calmodulin,"Glutamate receptor ionotropic, NMDA 1",0.996
+Calmodulin,Transient receptor potential cation channel subfamily V member 1,0.998
+Calmodulin,"Nitric oxide synthase, inducible",0.999
+Carbonic anhydrase 1,Carbonic anhydrase 2,0.833
+Carbonic anhydrase 1,Carbonic anhydrase 3,0.701
+Carbonic anhydrase 1,Carbonic anhydrase 7,0.702
+Carbonic anhydrase 12,Carbonic anhydrase 9,0.739
+Carbonic anhydrase 3,Carbonic anhydrase 4,0.845
+Carbonic anhydrase 9,Hypoxia-inducible factor 1-alpha,0.944
+Carbonyl reductase [NADPH] 1,Cytochrome P450 1A1,0.936
+Carbonyl reductase [NADPH] 1,Cytochrome P450 3A4,0.941
+Carbonyl reductase [NADPH] 1,Dihydrofolate reductase,0.981
+Casein kinase II subunit alpha,NF-kappa-B inhibitor alpha,0.929
+Casein kinase II subunit alpha,DNA topoisomerase 2-alpha,0.711
+Casein kinase II subunit alpha,E3 ubiquitin-protein ligase Mdm2,0.728
+Casein kinase II subunit alpha,Nucleolar and coiled-body phosphoprotein 1,0.746
+Casein kinase II subunit alpha,Histone deacetylase,0.826
+Casein kinase II subunit alpha,Heat shock protein HSP 90-alpha,0.88
+Casein kinase II subunit alpha,Cellular tumor antigen p53,0.959
+Casein kinase II subunit alpha,Histone deacetylase 1,0.961
+Casein kinase II subunit alpha,Histone deacetylase 2,0.972
+Casein kinase II subunit alpha,Casein kinase II subunit beta,0.999
+Casein kinase II subunit beta,NF-kappa-B inhibitor alpha,0.964
+Casein kinase II subunit beta,Cellular tumor antigen p53,0.843
+Catechol O-methyltransferase,Sodium-dependent serotonin transporter,0.717
+Catechol O-methyltransferase,Sodium-dependent dopamine transporter,0.781
+Catechol O-methyltransferase,Cytochrome P450 1A1,0.957
+Catechol O-methyltransferase,Dopamine beta-hydroxylase,0.965
+Catechol O-methyltransferase,Cytochrome P450 1B1,0.966
+Cell division protein,Splicing factor 3B subunit 3,0.997
+Cell division protein,DNA topoisomerase 1,0.823
+Cellular tumor antigen p53,Mitogen-activated protein kinase 1,0.998
+Cellular tumor antigen p53,NF-kappa-B inhibitor alpha,0.915
+Cellular tumor antigen p53,Glucocorticoid receptor,0.936
+Cellular tumor antigen p53,Receptor-type tyrosine-protein kinase FLT3,0.722
+Cellular tumor antigen p53,Ribonucleoside-diphosphate reductase subunit M2,0.992
+Cellular tumor antigen p53,Platelet-derived growth factor receptor alpha,0.762
+Cellular tumor antigen p53,E3 ubiquitin-protein ligase Mdm2,0.999
+Cellular tumor antigen p53,Vascular endothelial growth factor receptor 2,0.73
+Cellular tumor antigen p53,Signal transducer and activator of transcription 3,0.994
+Cellular tumor antigen p53,Cyclin-dependent kinase 2,0.987
+Cellular tumor antigen p53,Protein kinase C alpha type,0.7
+Cellular tumor antigen p53,Ubiquitin-like modifier-activating enzyme 1,0.71
+Cellular tumor antigen p53,Cystine/glutamate transporter,0.71
+Cellular tumor antigen p53,Fibroblast growth factor receptor 3,0.718
+Cellular tumor antigen p53,Tubulin beta chain,0.723
+Cellular tumor antigen p53,Receptor tyrosine-protein kinase erbB-4,0.726
+Cellular tumor antigen p53,Tyrosine-protein kinase JAK2,0.728
+Cellular tumor antigen p53,Prostate-specific antigen,0.76
+Cellular tumor antigen p53,Thymidylate synthase,0.774
+Cellular tumor antigen p53,Estrogen receptor beta,0.783
+Cellular tumor antigen p53,Hepatocyte growth factor receptor,0.804
+Cellular tumor antigen p53,Mast/stem cell growth factor receptor Kit,0.816
+Cellular tumor antigen p53,Matrix metalloproteinase-9,0.838
+Cellular tumor antigen p53,DNA topoisomerase 2-alpha,0.843
+Cellular tumor antigen p53,Progesterone receptor,0.849
+Cellular tumor antigen p53,Insulin-like growth factor 1 receptor,0.853
+Cellular tumor antigen p53,Protein-arginine deiminase type-4,0.861
+Cellular tumor antigen p53,Mitogen-activated protein kinase kinase kinase 1,0.866
+Cellular tumor antigen p53,Serine/threonine-protein kinase mTOR,0.874
+Cellular tumor antigen p53,Proto-oncogene tyrosine-protein kinase Src,0.884
+Cellular tumor antigen p53,Serine/threonine-protein kinase B-raf,0.887
+Cellular tumor antigen p53,Thioredoxin,0.899
+Cellular tumor antigen p53,Telomerase reverse transcriptase,0.902
+Cellular tumor antigen p53,Tyrosine-protein kinase ABL1,0.909
+Cellular tumor antigen p53,Inhibitor of nuclear factor kappa-B kinase subunit alpha,0.914
+Cellular tumor antigen p53,GTPase HRas,0.925
+Cellular tumor antigen p53,Inhibitor of nuclear factor kappa-B kinase subunit beta,0.933
+Cellular tumor antigen p53,Receptor tyrosine-protein kinase erbB-2,0.935
+Cellular tumor antigen p53,Epidermal growth factor receptor,0.943
+Cellular tumor antigen p53,NAD(P)H dehydrogenase [quinone] 1,0.946
+Cellular tumor antigen p53,DNA topoisomerase 1,0.947
+Cellular tumor antigen p53,Peroxisome proliferator-activated receptor gamma,0.949
+Cellular tumor antigen p53,RAC-gamma serine/threonine-protein kinase,0.953
+Cellular tumor antigen p53,Cyclin-dependent kinase 1,0.962
+Cellular tumor antigen p53,Poly [ADP-ribose] polymerase 1,0.972
+Cellular tumor antigen p53,Prostaglandin G/H synthase 2,0.974
+Cellular tumor antigen p53,Histone deacetylase 2,0.99
+Cellular tumor antigen p53,Estrogen receptor,0.992
+Cellular tumor antigen p53,Transcription factor Sp1,0.994
+Cellular tumor antigen p53,RAC-alpha serine/threonine-protein kinase,0.994
+Cellular tumor antigen p53,Heat shock protein HSP 90-beta,0.995
+Cellular tumor antigen p53,Serine/threonine-protein kinase Chk1,0.997
+Cellular tumor antigen p53,DNA-dependent protein kinase catalytic subunit,0.997
+Cellular tumor antigen p53,Hypoxia-inducible factor 1-alpha,0.999
+Cellular tumor antigen p53,Histone deacetylase 1,0.999
+Cellular tumor antigen p53,Heat shock protein HSP 90-alpha,0.999
+Cellular tumor antigen p53,DNA repair protein RAD51 homolog 1,0.999
+Centromere-associated protein E,Serine/threonine-protein kinase Chk1,0.757
+Centromere-associated protein E,Inner centromere protein,0.811
+Centromere-associated protein E,DNA topoisomerase 2-alpha,0.926
+Centromere-associated protein E,Cyclin-dependent kinase 1,0.973
+Coagulation factor IX,Vitamin K-dependent protein C,0.72
+Coagulation factor IX,Vitamin K epoxide reductase complex subunit 1,0.748
+Coagulation factor IX,Prothrombin,0.932
+Coagulation factor IX,Vitamin K-dependent gamma-carboxylase,0.972
+Collagenase 3,Serine protease 1,0.765
+Collagenase 3,Plasminogen,0.913
+Cyclin-dependent kinase 1,E3 ubiquitin-protein ligase Mdm2,0.829
+Cyclin-dependent kinase 1,Cyclin-dependent kinase 2,0.994
+Cyclin-dependent kinase 1,Epidermal growth factor receptor,0.849
+Cyclin-dependent kinase 1,Gap junction alpha-1 protein,0.922
+Cyclin-dependent kinase 1,Ribonucleoside-diphosphate reductase large subunit,0.777
+Cyclin-dependent kinase 1,Dual specificity mitogen-activated protein kinase kinase 1,0.837
+Cyclin-dependent kinase 1,Thymidylate synthase,0.846
+Cyclin-dependent kinase 1,Heat shock protein HSP 90-alpha,0.91
+Cyclin-dependent kinase 1,Heat shock protein HSP 90-beta,0.809
+Cyclin-dependent kinase 1,Histone deacetylase 1,0.84
+Cyclin-dependent kinase 1,Inner centromere protein,0.947
+Cyclin-dependent kinase 1,Hypoxia-inducible factor 1-alpha,0.793
+Cyclin-dependent kinase 1,DNA repair protein RAD51 homolog 1,0.837
+Cyclin-dependent kinase 1,Ubiquitin-conjugating enzyme E2 T,0.844
+Cyclin-dependent kinase 1,Tyrosine-protein kinase Lyn,0.889
+Cyclin-dependent kinase 1,Serine/threonine-protein kinase Chk1,0.911
+Cyclin-dependent kinase 1,DNA topoisomerase 2-alpha,0.997
+Cyclin-dependent kinase 2,E3 ubiquitin-protein ligase Mdm2,0.849
+Cyclin-dependent kinase 2,Poly [ADP-ribose] polymerase 1,0.705
+Cyclin-dependent kinase 2,Estrogen receptor,0.714
+Cyclin-dependent kinase 2,Heat shock protein HSP 90-beta,0.739
+Cyclin-dependent kinase 2,Hypoxia-inducible factor 1-alpha,0.773
+Cyclin-dependent kinase 2,Heat shock protein HSP 90-alpha,0.799
+Cyclin-dependent kinase 2,DNA topoisomerase 2-alpha,0.801
+Cyclin-dependent kinase 2,DNA repair protein RAD51 homolog 1,0.822
+Cyclin-dependent kinase 2,Progesterone receptor,0.822
+Cyclin-dependent kinase 2,DNA polymerase catalytic subunit,0.842
+Cyclin-dependent kinase 2,Serine/threonine-protein kinase Chk1,0.869
+Cytochrome P450 1A1,Sulfotransferase 2B1,0.926
+Cytochrome P450 1A1,Cytochrome P450 2C9,0.964
+Cytochrome P450 1A1,NAD(P)H dehydrogenase [quinone] 1,0.746
+Cytochrome P450 1A1,Nuclear receptor subfamily 1 group I member 2,0.742
+Cytochrome P450 1A1,Retinoic acid receptor RXR-alpha,0.714
+Cytochrome P450 1A1,Estrogen receptor,0.785
+Cytochrome P450 1A1,Cytochrome P450 1B1,0.937
+Cytochrome P450 1A1,Glutathione S-transferase P,0.974
+Cytochrome P450 1A1,Cytochrome P450 3A4,0.987
+Cytochrome P450 1B1,NAD(P)H dehydrogenase [quinone] 1,0.797
+Cytochrome P450 1B1,Glutathione S-transferase P,0.973
+Cytochrome P450 1B1,Cytochrome P450 3A4,0.706
+Cytochrome P450 2C9,Vitamin K-dependent gamma-carboxylase,0.908
+Cytochrome P450 2C9,Solute carrier organic anion transporter family member 1B1,0.922
+Cytochrome P450 2C9,Nuclear receptor subfamily 1 group I member 2,0.85
+Cytochrome P450 2C9,Prostaglandin G/H synthase 2,0.936
+Cytochrome P450 2C9,Prostaglandin G/H synthase 1,0.936
+Cytochrome P450 2C9,Glutathione S-transferase P,0.951
+Cytochrome P450 2C9,Vitamin K epoxide reductase complex subunit 1,0.98
+Cytochrome P450 2C9,Cytochrome P450 3A4,0.98
+Cytochrome P450 3A4,Sulfotransferase 2B1,0.923
+Cytochrome P450 3A4,Solute carrier organic anion transporter family member 1B1,0.932
+Cytochrome P450 3A4,Solute carrier organic anion transporter family member 1B3,0.749
+Cytochrome P450 3A4,Nuclear receptor subfamily 1 group I member 2,0.962
+Cytochrome P450 3A4,Glutathione S-transferase P,0.976
+Cytosolic phospholipase A2,Mitogen-activated protein kinase 1,0.903
+Cytosolic phospholipase A2,Prostaglandin G/H synthase 1,0.714
+D(1A) dopamine receptor,Sodium-dependent serotonin transporter,0.763
+D(1A) dopamine receptor,Sodium-dependent dopamine transporter,0.906
+D(1A) dopamine receptor,D(1B) dopamine receptor,0.818
+D(1A) dopamine receptor,"Glutamate receptor ionotropic, NMDA 2A",0.772
+D(1A) dopamine receptor,Histamine H3 receptor,0.782
+D(1A) dopamine receptor,Neuronal acetylcholine receptor subunit alpha-4,0.709
+D(1A) dopamine receptor,D(3) dopamine receptor,0.801
+D(1A) dopamine receptor,Glutamate receptor 1,0.74
+D(1B) dopamine receptor,Sodium-dependent dopamine transporter,0.84
+D(2) dopamine receptor,D(4) dopamine receptor,0.816
+D(2) dopamine receptor,Sodium-dependent serotonin transporter,0.91
+D(2) dopamine receptor,Sodium-dependent dopamine transporter,0.999
+D(2) dopamine receptor,Histamine H3 receptor,0.707
+D(2) dopamine receptor,Dopamine beta-hydroxylase,0.748
+D(3) dopamine receptor,D(4) dopamine receptor,0.943
+D(3) dopamine receptor,Sodium-dependent serotonin transporter,0.787
+D(3) dopamine receptor,Sodium-dependent dopamine transporter,0.784
+D(4) dopamine receptor,Neuronal acetylcholine receptor subunit alpha-4,0.732
+D(4) dopamine receptor,Dopamine beta-hydroxylase,0.784
+D(4) dopamine receptor,Sodium-dependent dopamine transporter,0.96
+D(4) dopamine receptor,Sodium-dependent serotonin transporter,0.978
+DNA (cytosine-5)-methyltransferase 3B,Histone deacetylase 4,0.702
+DNA (cytosine-5)-methyltransferase 3B,Histone deacetylase,0.738
+DNA (cytosine-5)-methyltransferase 3B,Estrogen receptor,0.783
+DNA (cytosine-5)-methyltransferase 3B,Histone deacetylase 2,0.994
+DNA (cytosine-5)-methyltransferase 3B,Histone deacetylase 1,0.999
+DNA ligase 1,Poly [ADP-ribose] polymerase 1,0.703
+DNA ligase 1,DNA-dependent protein kinase catalytic subunit,0.718
+DNA ligase 1,DNA polymerase catalytic subunit,0.761
+DNA ligase 1,DNA ligase 3,0.785
+DNA ligase 1,Serine/threonine-protein kinase Chk1,0.794
+DNA ligase 1,DNA repair protein RAD51 homolog 1,0.824
+DNA ligase 3,Poly [ADP-ribose] polymerase 2,0.991
+DNA ligase 3,DNA-dependent protein kinase catalytic subunit,0.814
+DNA ligase 3,DNA topoisomerase 1,0.811
+DNA ligase 3,Poly [ADP-ribose] polymerase 1,0.99
+DNA polymerase catalytic subunit,Ribonucleoside-diphosphate reductase large subunit,0.836
+DNA polymerase catalytic subunit,DNA repair protein RAD51 homolog 1,0.787
+DNA repair protein RAD51 homolog 1,DNA-dependent protein kinase catalytic subunit,0.823
+DNA repair protein RAD51 homolog 1,Thymidylate synthase,0.753
+DNA repair protein RAD51 homolog 1,Poly [ADP-ribose] polymerase 1,0.86
+DNA repair protein RAD51 homolog 1,Tyrosine-protein kinase ABL1,0.915
+DNA repair protein RAD51 homolog 1,Serine/threonine-protein kinase Chk1,0.998
+DNA repair protein RAD51 homolog 1,DNA topoisomerase 2-alpha,0.799
+DNA repair protein RAD51 homolog 1,Ubiquitin-conjugating enzyme E2 T,0.728
+DNA topoisomerase 1,DNA topoisomerase 2,0.981
+DNA topoisomerase 1,DNA-dependent protein kinase catalytic subunit,0.866
+DNA topoisomerase 1,Serine/threonine-protein kinase Chk1,0.743
+DNA topoisomerase 1,Poly [ADP-ribose] polymerase 1,0.936
+DNA topoisomerase 1,DNA topoisomerase 2-alpha,0.994
+DNA topoisomerase 2,Poly [ADP-ribose] polymerase 1,0.724
+DNA topoisomerase 2,DNA topoisomerase 2-alpha,0.973
+DNA topoisomerase 2-alpha,Ribonucleoside-diphosphate reductase large subunit,0.882
+DNA topoisomerase 2-alpha,DNA-dependent protein kinase catalytic subunit,0.793
+DNA topoisomerase 2-alpha,Thymidylate synthase,0.96
+DNA topoisomerase 2-alpha,Poly [ADP-ribose] polymerase 1,0.742
+DNA topoisomerase 2-alpha,Histone deacetylase 1,0.809
+DNA topoisomerase 2-alpha,Serine/threonine-protein kinase Chk1,0.889
+DNA-dependent protein kinase catalytic subunit,Epidermal growth factor receptor,0.936
+DNA-dependent protein kinase catalytic subunit,Estrogen receptor,0.717
+DNA-dependent protein kinase catalytic subunit,Heat shock protein HSP 90-beta,0.73
+DNA-dependent protein kinase catalytic subunit,Heat shock protein HSP 90-alpha,0.733
+DNA-dependent protein kinase catalytic subunit,RAC-gamma serine/threonine-protein kinase,0.745
+DNA-dependent protein kinase catalytic subunit,Tyrosine-protein kinase Lyn,0.745
+DNA-dependent protein kinase catalytic subunit,Hypoxia-inducible factor 1-alpha,0.796
+DNA-dependent protein kinase catalytic subunit,Tyrosine-protein kinase ABL1,0.802
+DNA-dependent protein kinase catalytic subunit,RuvB-like 2,0.831
+DNA-dependent protein kinase catalytic subunit,RAC-alpha serine/threonine-protein kinase,0.889
+DNA-dependent protein kinase catalytic subunit,Serine/threonine-protein kinase Chk1,0.928
+DNA-dependent protein kinase catalytic subunit,Poly [ADP-ribose] polymerase 1,0.993
+Delta-type opioid receptor,Mu-type opioid receptor,0.967
+Dihydrofolate reductase,Dihydroorotate dehydrogenase (quinone),0.91
+Dihydrofolate reductase,Thymidylate synthase,0.999
+Dihydrofolate reductase,"Folylpolyglutamate synthase, mitochondrial",0.995
+Dihydroorotase,Dihydroorotate dehydrogenase (quinone),0.994
+Dihydroorotase,Orotate phosphoribosyltransferase,0.946
+Dihydroorotase,Dihydropyrimidine dehydrogenase [NADP(+)],0.84
+Dihydroorotate dehydrogenase (quinone),Inosine-5'-monophosphate dehydrogenase 2,0.72
+Dihydroorotate dehydrogenase (quinone),Orotate phosphoribosyltransferase,0.999
+Dihydropyrimidine dehydrogenase [NADP(+)],Orotate phosphoribosyltransferase,0.999
+Dihydropyrimidine dehydrogenase [NADP(+)],Thymidylate synthase,0.979
+Disintegrin and metalloproteinase domain-containing protein 17,Presenilin-1,0.712
+Dopamine beta-hydroxylase,Sodium-dependent dopamine transporter,0.815
+"Dual 3',5'-cyclic-AMP and -GMP phosphodiesterase 11A","cGMP-specific 3',5'-cyclic phosphodiesterase",0.725
+Dual specificity mitogen-activated protein kinase kinase 1,Mitogen-activated protein kinase 1,0.999
+Dual specificity mitogen-activated protein kinase kinase 1,Dual specificity mitogen-activated protein kinase kinase 2,0.996
+Dual specificity mitogen-activated protein kinase kinase 1,Peroxisome proliferator-activated receptor gamma,0.813
+Dual specificity mitogen-activated protein kinase kinase 1,Tyrosine-protein kinase JAK2,0.757
+Dual specificity mitogen-activated protein kinase kinase 1,Heat shock protein HSP 90-beta,0.761
+Dual specificity mitogen-activated protein kinase kinase 1,Proto-oncogene tyrosine-protein kinase Src,0.794
+Dual specificity mitogen-activated protein kinase kinase 1,Heat shock protein HSP 90-alpha,0.798
+Dual specificity mitogen-activated protein kinase kinase 1,GTPase HRas,0.989
+Dual specificity mitogen-activated protein kinase kinase 1,Mitogen-activated protein kinase kinase kinase 1,0.989
+Dual specificity mitogen-activated protein kinase kinase 1,Serine/threonine-protein kinase B-raf,0.999
+Dual specificity mitogen-activated protein kinase kinase 2,Mitogen-activated protein kinase 1,0.999
+Dual specificity mitogen-activated protein kinase kinase 2,Proto-oncogene tyrosine-protein kinase Src,0.716
+Dual specificity mitogen-activated protein kinase kinase 2,GTPase HRas,0.968
+Dual specificity mitogen-activated protein kinase kinase 2,Mitogen-activated protein kinase kinase kinase 1,0.971
+Dual specificity mitogen-activated protein kinase kinase 2,Serine/threonine-protein kinase B-raf,0.998
+E-selectin,Vascular cell adhesion protein 1,0.979
+E3 ubiquitin-protein ligase Mdm2,Ribonucleoside-diphosphate reductase subunit M2,0.75
+E3 ubiquitin-protein ligase Mdm2,Platelet-derived growth factor receptor alpha,0.843
+E3 ubiquitin-protein ligase Mdm2,Histone deacetylase 6,0.701
+E3 ubiquitin-protein ligase Mdm2,Signal transducer and activator of transcription 3,0.715
+E3 ubiquitin-protein ligase Mdm2,Fibroblast growth factor receptor 4,0.747
+E3 ubiquitin-protein ligase Mdm2,Heat shock protein HSP 90-beta,0.753
+E3 ubiquitin-protein ligase Mdm2,Telomerase reverse transcriptase,0.797
+E3 ubiquitin-protein ligase Mdm2,Transcription factor Sp1,0.799
+E3 ubiquitin-protein ligase Mdm2,Fibroblast growth factor receptor 3,0.799
+E3 ubiquitin-protein ligase Mdm2,Fibroblast growth factor receptor 2,0.867
+E3 ubiquitin-protein ligase Mdm2,Proto-oncogene tyrosine-protein kinase Src,0.882
+E3 ubiquitin-protein ligase Mdm2,Tyrosine-protein kinase ABL1,0.896
+E3 ubiquitin-protein ligase Mdm2,Epidermal growth factor receptor,0.897
+E3 ubiquitin-protein ligase Mdm2,Heat shock protein HSP 90-alpha,0.909
+E3 ubiquitin-protein ligase Mdm2,Estrogen receptor,0.946
+E3 ubiquitin-protein ligase Mdm2,Histone deacetylase 1,0.963
+E3 ubiquitin-protein ligase Mdm2,RAC-gamma serine/threonine-protein kinase,0.966
+E3 ubiquitin-protein ligase Mdm2,Insulin-like growth factor 1 receptor,0.981
+E3 ubiquitin-protein ligase Mdm2,Hypoxia-inducible factor 1-alpha,0.988
+E3 ubiquitin-protein ligase Mdm2,RAC-alpha serine/threonine-protein kinase,0.999
+Epidermal growth factor receptor,Glucocorticoid receptor,0.87
+Epidermal growth factor receptor,Platelet-derived growth factor receptor alpha,0.986
+Epidermal growth factor receptor,Platelet-derived growth factor receptor beta,0.998
+Epidermal growth factor receptor,Vascular endothelial growth factor receptor 2,0.805
+Epidermal growth factor receptor,Signal transducer and activator of transcription 3,0.998
+Epidermal growth factor receptor,Receptor tyrosine-protein kinase erbB-2,0.999
+Epidermal growth factor receptor,Tyrosine-protein kinase ITK/TSK,0.706
+Epidermal growth factor receptor,Glutathione S-transferase P,0.713
+Epidermal growth factor receptor,Thioredoxin,0.742
+Epidermal growth factor receptor,Insulin receptor,0.747
+Epidermal growth factor receptor,Tyrosine-protein kinase Lck,0.748
+Epidermal growth factor receptor,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit gamma isoform",0.748
+Epidermal growth factor receptor,Poly [ADP-ribose] polymerase 1,0.751
+Epidermal growth factor receptor,Estrogen receptor beta,0.755
+Epidermal growth factor receptor,Histone deacetylase 1,0.765
+Epidermal growth factor receptor,RAC-alpha serine/threonine-protein kinase,0.792
+Epidermal growth factor receptor,Tyrosine-protein kinase HCK,0.795
+Epidermal growth factor receptor,Macrophage-stimulating protein receptor,0.795
+Epidermal growth factor receptor,Serine/threonine-protein kinase mTOR,0.802
+Epidermal growth factor receptor,Matrix metalloproteinase-9,0.827
+Epidermal growth factor receptor,Progesterone receptor,0.83
+Epidermal growth factor receptor,Prostaglandin G/H synthase 2,0.836
+Epidermal growth factor receptor,Peroxisome proliferator-activated receptor gamma,0.843
+Epidermal growth factor receptor,Steroid hormone receptor ERR2,0.848
+Epidermal growth factor receptor,Tyrosine-protein kinase Lyn,0.859
+Epidermal growth factor receptor,Tyrosine-protein kinase ABL1,0.861
+Epidermal growth factor receptor,Fibroblast growth factor 1,0.887
+Epidermal growth factor receptor,Histone deacetylase 6,0.919
+Epidermal growth factor receptor,Protein kinase C alpha type,0.932
+Epidermal growth factor receptor,Hypoxia-inducible factor 1-alpha,0.934
+Epidermal growth factor receptor,Tyrosine-protein kinase JAK2,0.986
+Epidermal growth factor receptor,Estrogen receptor,0.988
+Epidermal growth factor receptor,Insulin-like growth factor 1 receptor,0.989
+Epidermal growth factor receptor,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit beta isoform",0.993
+Epidermal growth factor receptor,GTPase HRas,0.994
+Epidermal growth factor receptor,Receptor tyrosine-protein kinase erbB-4,0.996
+Epidermal growth factor receptor,Hepatocyte growth factor receptor,0.996
+Epidermal growth factor receptor,Tyrosine-protein phosphatase non-receptor type 1,0.997
+Epidermal growth factor receptor,Heat shock protein HSP 90-beta,0.998
+Epidermal growth factor receptor,Heat shock protein HSP 90-alpha,0.999
+Epidermal growth factor receptor,Proto-oncogene tyrosine-protein kinase Src,0.999
+Estrogen receptor,Mitogen-activated protein kinase 1,0.987
+Estrogen receptor,Glucocorticoid receptor,0.896
+Estrogen receptor,Signal transducer and activator of transcription 3,0.93
+Estrogen receptor,Receptor tyrosine-protein kinase erbB-2,0.976
+Estrogen receptor,Peroxisome proliferator-activated receptor gamma,0.794
+Estrogen receptor,Trefoil factor 1,0.978
+Estrogen receptor,Progesterone receptor,0.974
+Estrogen receptor,Transcription factor Sp1,0.999
+Estrogen receptor,Heat shock protein HSP 90-alpha,0.999
+Estrogen receptor,Receptor tyrosine-protein kinase erbB-4,0.961
+Estrogen receptor,Estrogen receptor beta,0.998
+Estrogen receptor,Serine/threonine-protein kinase mTOR,0.745
+Estrogen receptor,Poly [ADP-ribose] polymerase 1,0.746
+Estrogen receptor,Inhibitor of nuclear factor kappa-B kinase subunit alpha,0.735
+Estrogen receptor,Heat shock protein HSP 90-beta,0.993
+Estrogen receptor,Matrix metalloproteinase-9,0.772
+Estrogen receptor,Histone deacetylase 1,0.998
+Estrogen receptor,Proto-oncogene tyrosine-protein kinase Src,0.999
+Estrogen receptor,Sex hormone-binding globulin,0.729
+Estrogen receptor,Steroid hormone receptor ERR1,0.888
+Estrogen receptor,GTPase HRas,0.715
+Estrogen receptor,Serine/threonine-protein kinase B-raf,0.746
+Estrogen receptor,Fibroblast growth factor receptor 2,0.774
+Estrogen receptor,Histone deacetylase 2,0.903
+Estrogen receptor,RAC-alpha serine/threonine-protein kinase,0.913
+Estrogen receptor,Hypoxia-inducible factor 1-alpha,0.948
+Estrogen receptor,Insulin-like growth factor 1 receptor,0.999
+Estrogen receptor beta,Mitogen-activated protein kinase 1,0.948
+Estrogen receptor beta,Receptor tyrosine-protein kinase erbB-2,0.717
+Estrogen receptor beta,Transcription factor Sp1,0.988
+Estrogen receptor beta,Voltage-dependent T-type calcium channel subunit alpha-1H,0.914
+Estrogen receptor beta,Heat shock protein HSP 90-alpha,0.884
+Estrogen receptor beta,Sex hormone-binding globulin,0.759
+Estrogen receptor beta,Insulin-like growth factor 1 receptor,0.813
+Estrogen receptor beta,Heat shock protein HSP 90-beta,0.832
+Estrogen receptor beta,Proto-oncogene tyrosine-protein kinase Src,0.995
+Estrogen-related receptor gamma,Steroid hormone receptor ERR2,0.748
+Estrogen-related receptor gamma,Nuclear receptor subfamily 0 group B member 1,0.764
+Estrogen-related receptor gamma,Steroid hormone receptor ERR1,0.927
+Eukaryotic translation initiation factor 3 subunit F,Serine/threonine-protein kinase mTOR,0.805
+Fibroblast growth factor 1,Receptor-type tyrosine-protein kinase FLT3,0.759
+Fibroblast growth factor 1,Platelet-derived growth factor receptor alpha,0.819
+Fibroblast growth factor 1,Platelet-derived growth factor receptor beta,0.842
+Fibroblast growth factor 1,Vascular endothelial growth factor receptor 3,0.807
+Fibroblast growth factor 1,Vascular endothelial growth factor receptor 2,0.919
+Fibroblast growth factor 1,Receptor tyrosine-protein kinase erbB-2,0.787
+Fibroblast growth factor 1,Vascular endothelial growth factor receptor 1,0.944
+Fibroblast growth factor 1,Mast/stem cell growth factor receptor Kit,0.811
+Fibroblast growth factor 1,Fibroblast growth factor receptor 4,0.999
+Fibroblast growth factor 1,Hepatocyte growth factor receptor,0.761
+Fibroblast growth factor 1,Fibroblast growth factor receptor 3,0.999
+Fibroblast growth factor 1,Receptor tyrosine-protein kinase erbB-4,0.773
+Fibroblast growth factor 1,Fibroblast growth factor receptor 1,0.999
+Fibroblast growth factor 1,Fibroblast growth factor receptor 2,0.999
+Fibroblast growth factor 1,Insulin-like growth factor 1 receptor,0.772
+Fibroblast growth factor receptor 1,Platelet-derived growth factor receptor alpha,0.715
+Fibroblast growth factor receptor 1,Receptor tyrosine-protein kinase erbB-2,0.737
+Fibroblast growth factor receptor 1,Fibroblast growth factor receptor 4,0.967
+Fibroblast growth factor receptor 1,Heat shock protein HSP 90-alpha,0.74
+Fibroblast growth factor receptor 1,Fibroblast growth factor receptor 3,0.854
+Fibroblast growth factor receptor 1,Fibroblast growth factor receptor 2,0.853
+Fibroblast growth factor receptor 1,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit beta isoform",0.933
+Fibroblast growth factor receptor 1,GTPase HRas,0.962
+Fibroblast growth factor receptor 2,Signal transducer and activator of transcription 3,0.847
+Fibroblast growth factor receptor 2,Receptor tyrosine-protein kinase erbB-2,0.744
+Fibroblast growth factor receptor 2,Progesterone receptor,0.854
+Fibroblast growth factor receptor 2,Fibroblast growth factor receptor 3,0.987
+Fibroblast growth factor receptor 2,Proto-oncogene tyrosine-protein kinase Src,0.958
+Fibroblast growth factor receptor 2,Tyrosine-protein kinase JAK2,0.921
+Fibroblast growth factor receptor 2,GTPase HRas,0.961
+Fibroblast growth factor receptor 2,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit beta isoform",0.754
+Fibroblast growth factor receptor 3,Receptor tyrosine-protein kinase erbB-2,0.765
+Fibroblast growth factor receptor 3,Fibroblast growth factor receptor 4,0.79
+Fibroblast growth factor receptor 3,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit beta isoform",0.745
+Fibroblast growth factor receptor 3,Tyrosine-protein kinase JAK2,0.921
+Fibroblast growth factor receptor 3,Proto-oncogene tyrosine-protein kinase Src,0.923
+Fibroblast growth factor receptor 3,GTPase HRas,0.982
+Fibroblast growth factor receptor 4,Receptor tyrosine-protein kinase erbB-2,0.829
+Fibroblast growth factor receptor 4,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit beta isoform",0.724
+Fibroblast growth factor receptor 4,GTPase HRas,0.943
+"Folylpolyglutamate synthase, mitochondrial",Reduced folate transporter,0.728
+"Folylpolyglutamate synthase, mitochondrial",Thymidylate synthase,0.992
+GABA(A) Receptor,Neuronal acetylcholine receptor subunit alpha-4,0.707
+GABA(A) Receptor,"Glutamate receptor ionotropic, NMDA 2B",0.741
+GABA(A) Receptor,Neuronal acetylcholine receptor subunit alpha-2,0.767
+GTPase HRas,Mitogen-activated protein kinase 1,0.979
+GTPase HRas,Receptor-type tyrosine-protein kinase FLT3,0.781
+GTPase HRas,Protein farnesyltransferase subunit beta,0.783
+GTPase HRas,Platelet-derived growth factor receptor alpha,0.96
+GTPase HRas,Platelet-derived growth factor receptor beta,0.962
+GTPase HRas,Receptor tyrosine-protein kinase erbB-2,0.907
+GTPase HRas,Mast/stem cell growth factor receptor Kit,0.962
+GTPase HRas,Hepatocyte growth factor receptor,0.961
+GTPase HRas,Heat shock protein HSP 90-alpha,0.819
+GTPase HRas,Receptor tyrosine-protein kinase erbB-4,0.827
+GTPase HRas,Tyrosine-protein kinase ABL1,0.782
+GTPase HRas,Proto-oncogene tyrosine-protein kinase Src,0.994
+GTPase HRas,Tyrosine-protein kinase JAK2,0.781
+GTPase HRas,Mitogen-activated protein kinase kinase kinase 1,0.945
+GTPase HRas,Tyrosine-protein kinase Lyn,0.772
+GTPase HRas,RAC-alpha serine/threonine-protein kinase,0.896
+GTPase HRas,Protein kinase C beta type,0.919
+GTPase HRas,Protein kinase C alpha type,0.937
+GTPase HRas,Insulin-like growth factor 1 receptor,0.949
+GTPase HRas,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit beta isoform",0.963
+GTPase HRas,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit gamma isoform",0.998
+GTPase HRas,Serine/threonine-protein kinase B-raf,0.999
+Gamma-secretase subunit APH-1A,Gamma-secretase subunit APH-1B,0.975
+Gamma-secretase subunit APH-1A,Nicastrin,0.999
+Gamma-secretase subunit APH-1A,Presenilin-1,0.999
+Gamma-secretase subunit APH-1A,Gamma-secretase subunit PEN-2,0.999
+Gamma-secretase subunit APH-1B,Nicastrin,0.999
+Gamma-secretase subunit APH-1B,Gamma-secretase subunit PEN-2,0.999
+Gamma-secretase subunit APH-1B,Presenilin-1,0.999
+Gamma-secretase subunit PEN-2,Nicastrin,0.999
+Gamma-secretase subunit PEN-2,Presenilin-1,0.999
+Gap junction alpha-1 protein,Mitogen-activated protein kinase 1,0.943
+Gap junction alpha-1 protein,Inward rectifier potassium channel 2,0.76
+Gap junction alpha-1 protein,Tubulin beta chain,0.943
+Gap junction alpha-1 protein,Proto-oncogene tyrosine-protein kinase Src,0.998
+Geranylgeranyl transferase type-1 subunit beta,Protein farnesyltransferase/geranylgeranyltransferase type-1 subunit alpha,0.999
+Glucocorticoid receptor,Progesterone receptor,0.733
+Glucocorticoid receptor,RAC-alpha serine/threonine-protein kinase,0.791
+Glucocorticoid receptor,Histone deacetylase 6,0.824
+Glucocorticoid receptor,Hypoxia-inducible factor 1-alpha,0.852
+Glucocorticoid receptor,Histone deacetylase 2,0.862
+Glucocorticoid receptor,Mineralocorticoid receptor,0.929
+Glucocorticoid receptor,Histone deacetylase 1,0.929
+Glucocorticoid receptor,Signal transducer and activator of transcription 3,0.981
+Glucocorticoid receptor,Heat shock protein HSP 90-beta,0.998
+Glucocorticoid receptor,Heat shock protein HSP 90-alpha,0.999
+Glutamate (NMDA) receptor,Glutamate receptor 1,0.84
+Glutamate (NMDA) receptor,"Glutamate receptor ionotropic, NMDA 3A",0.995
+Glutamate (NMDA) receptor,"Glutamate receptor ionotropic, NMDA 2B",0.996
+Glutamate (NMDA) receptor,"Glutamate receptor ionotropic, NMDA 2D",0.996
+Glutamate (NMDA) receptor,"Glutamate receptor ionotropic, NMDA 2A",0.998
+Glutamate (NMDA) receptor,"Glutamate receptor ionotropic, NMDA 1",0.999
+Glutamate receptor 1,"Glutamate receptor ionotropic, NMDA 2D",0.816
+Glutamate receptor 1,"Glutamate receptor ionotropic, NMDA 2A",0.926
+Glutamate receptor 1,"Glutamate receptor ionotropic, NMDA 3A",0.815
+Glutamate receptor 1,"Glutamate receptor ionotropic, NMDA 1",0.907
+Glutamate receptor 1,Protein kinase C alpha type,0.706
+Glutamate receptor 1,Tyrosine-protein kinase Lyn,0.907
+Glutamate receptor 1,"Glutamate receptor ionotropic, NMDA 2B",0.934
+"Glutamate receptor ionotropic, NMDA 1","Glutamate receptor ionotropic, NMDA 2D",0.999
+"Glutamate receptor ionotropic, NMDA 1","Glutamate receptor ionotropic, NMDA 2A",0.999
+"Glutamate receptor ionotropic, NMDA 1","Glutamate receptor ionotropic, NMDA 3A",0.999
+"Glutamate receptor ionotropic, NMDA 1","Glutamate receptor ionotropic, NMDA 2B",0.999
+"Glutamate receptor ionotropic, NMDA 2A","Glutamate receptor ionotropic, NMDA 2D",0.998
+"Glutamate receptor ionotropic, NMDA 2A",Receptor tyrosine-protein kinase erbB-4,0.768
+"Glutamate receptor ionotropic, NMDA 2A",Proto-oncogene tyrosine-protein kinase Src,0.963
+"Glutamate receptor ionotropic, NMDA 2A","Glutamate receptor ionotropic, NMDA 2B",0.999
+"Glutamate receptor ionotropic, NMDA 2A","Glutamate receptor ionotropic, NMDA 3A",0.999
+"Glutamate receptor ionotropic, NMDA 2B","Glutamate receptor ionotropic, NMDA 2D",0.998
+"Glutamate receptor ionotropic, NMDA 2B",Receptor tyrosine-protein kinase erbB-4,0.753
+"Glutamate receptor ionotropic, NMDA 2B","Glutamate receptor ionotropic, NMDA 3A",0.999
+"Glutamate receptor ionotropic, NMDA 2B",Proto-oncogene tyrosine-protein kinase Src,0.933
+"Glutamate receptor ionotropic, NMDA 2B",Protein kinase C alpha type,0.747
+"Glutamate receptor ionotropic, NMDA 2D","Glutamate receptor ionotropic, NMDA 3A",0.998
+Glutathione S-transferase P,NAD(P)H dehydrogenase [quinone] 1,0.728
+Glutathione S-transferase P,Glutathione synthetase,0.934
+"Glycogen phosphorylase, muscle form",Muscarinic acetylcholine receptor M1,0.763
+Heat shock protein HSP 90-alpha,Mitogen-activated protein kinase 1,0.941
+Heat shock protein HSP 90-alpha,Vascular endothelial growth factor receptor 2,0.954
+Heat shock protein HSP 90-alpha,Histone deacetylase 4,0.975
+Heat shock protein HSP 90-alpha,Signal transducer and activator of transcription 3,0.971
+Heat shock protein HSP 90-alpha,Receptor tyrosine-protein kinase erbB-2,0.999
+Heat shock protein HSP 90-alpha,Mast/stem cell growth factor receptor Kit,0.708
+Heat shock protein HSP 90-alpha,Telomerase reverse transcriptase,0.998
+Heat shock protein HSP 90-alpha,Hepatocyte growth factor receptor,0.768
+Heat shock protein HSP 90-alpha,Progesterone receptor,0.99
+Heat shock protein HSP 90-alpha,"Nitric oxide synthase, inducible",0.731
+Heat shock protein HSP 90-alpha,Thioredoxin,0.724
+Heat shock protein HSP 90-alpha,Histone deacetylase 1,0.764
+Heat shock protein HSP 90-alpha,Insulin-like growth factor 1 receptor,0.791
+Heat shock protein HSP 90-alpha,Tyrosine-protein kinase JAK2,0.791
+Heat shock protein HSP 90-alpha,Receptor tyrosine-protein kinase erbB-4,0.809
+Heat shock protein HSP 90-alpha,Tyrosine-protein kinase Lyn,0.809
+Heat shock protein HSP 90-alpha,Tyrosine-protein kinase Lck,0.834
+Heat shock protein HSP 90-alpha,Mineralocorticoid receptor,0.864
+Heat shock protein HSP 90-alpha,LIM domain kinase 1,0.882
+Heat shock protein HSP 90-alpha,RuvB-like 2,0.886
+Heat shock protein HSP 90-alpha,Serine/threonine-protein kinase Chk1,0.891
+Heat shock protein HSP 90-alpha,Heat shock-related 70 kDa protein 2,0.896
+Heat shock protein HSP 90-alpha,RAC-gamma serine/threonine-protein kinase,0.954
+Heat shock protein HSP 90-alpha,Inhibitor of nuclear factor kappa-B kinase subunit beta,0.975
+Heat shock protein HSP 90-alpha,Tyrosine-protein kinase ABL1,0.983
+Heat shock protein HSP 90-alpha,Serine/threonine-protein kinase B-raf,0.984
+Heat shock protein HSP 90-alpha,Inhibitor of nuclear factor kappa-B kinase subunit alpha,0.992
+Heat shock protein HSP 90-alpha,Heat shock protein HSP 90-beta,0.997
+Heat shock protein HSP 90-alpha,Serine/threonine-protein kinase mTOR,0.998
+Heat shock protein HSP 90-alpha,Histone deacetylase 6,0.999
+Heat shock protein HSP 90-alpha,Proto-oncogene tyrosine-protein kinase Src,0.999
+Heat shock protein HSP 90-alpha,Hypoxia-inducible factor 1-alpha,0.999
+Heat shock protein HSP 90-alpha,RAC-alpha serine/threonine-protein kinase,0.999
+Heat shock protein HSP 90-beta,Mitogen-activated protein kinase 1,0.813
+Heat shock protein HSP 90-beta,Vascular endothelial growth factor receptor 2,0.879
+Heat shock protein HSP 90-beta,Histone deacetylase 4,0.962
+Heat shock protein HSP 90-beta,Signal transducer and activator of transcription 3,0.89
+Heat shock protein HSP 90-beta,Receptor tyrosine-protein kinase erbB-2,0.993
+Heat shock protein HSP 90-beta,Peroxisome proliferator-activated receptor gamma,0.712
+Heat shock protein HSP 90-beta,Telomerase reverse transcriptase,0.987
+Heat shock protein HSP 90-beta,Progesterone receptor,0.978
+Heat shock protein HSP 90-beta,LIM domain kinase 1,0.879
+Heat shock protein HSP 90-beta,Mineralocorticoid receptor,0.862
+Heat shock protein HSP 90-beta,Serine/threonine-protein kinase mTOR,0.998
+Heat shock protein HSP 90-beta,Inhibitor of nuclear factor kappa-B kinase subunit alpha,0.979
+Heat shock protein HSP 90-beta,Thioredoxin,0.713
+Heat shock protein HSP 90-beta,Tyrosine-protein kinase Lyn,0.714
+Heat shock protein HSP 90-beta,Histone deacetylase 1,0.751
+Heat shock protein HSP 90-beta,Serine/threonine-protein kinase Chk1,0.875
+Heat shock protein HSP 90-beta,Heat shock-related 70 kDa protein 2,0.899
+Heat shock protein HSP 90-beta,Tyrosine-protein kinase ABL1,0.93
+Heat shock protein HSP 90-beta,RuvB-like 2,0.937
+Heat shock protein HSP 90-beta,RAC-gamma serine/threonine-protein kinase,0.956
+Heat shock protein HSP 90-beta,Inhibitor of nuclear factor kappa-B kinase subunit beta,0.976
+Heat shock protein HSP 90-beta,Proto-oncogene tyrosine-protein kinase Src,0.995
+Heat shock protein HSP 90-beta,Hypoxia-inducible factor 1-alpha,0.998
+Heat shock protein HSP 90-beta,Histone deacetylase 6,0.998
+Heat shock protein HSP 90-beta,Serine/threonine-protein kinase B-raf,0.998
+Heat shock protein HSP 90-beta,RAC-alpha serine/threonine-protein kinase,0.999
+Heat shock-related 70 kDa protein 2,Voltage-dependent T-type calcium channel subunit alpha-1H,0.725
+Heat shock-related 70 kDa protein 2,Voltage gated L-type calcium channel,0.724
+Hepatocyte growth factor receptor,Vascular endothelial growth factor receptor 2,0.851
+Hepatocyte growth factor receptor,Signal transducer and activator of transcription 3,0.981
+Hepatocyte growth factor receptor,Receptor tyrosine-protein kinase erbB-2,0.847
+Hepatocyte growth factor receptor,Poly [ADP-ribose] polymerase 1,0.701
+Hepatocyte growth factor receptor,Matrix metalloproteinase-9,0.746
+Hepatocyte growth factor receptor,Tyrosine-protein kinase JAK2,0.92
+Hepatocyte growth factor receptor,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit beta isoform",0.925
+Hepatocyte growth factor receptor,Tyrosine-protein phosphatase non-receptor type 1,0.954
+Hepatocyte growth factor receptor,Proto-oncogene tyrosine-protein kinase Src,0.993
+Histamine H1 receptor,Transient receptor potential cation channel subfamily V member 1,0.827
+Histone deacetylase,Histone deacetylase 1,0.999
+Histone deacetylase,Histone deacetylase 2,0.999
+Histone deacetylase 1,Histone deacetylase 4,0.781
+Histone deacetylase 1,Signal transducer and activator of transcription 3,0.984
+Histone deacetylase 1,Peroxisome proliferator-activated receptor gamma,0.857
+Histone deacetylase 1,Transcription factor Sp1,0.991
+Histone deacetylase 1,Poly [ADP-ribose] polymerase 1,0.9
+Histone deacetylase 1,Vitamin D3 receptor,0.728
+Histone deacetylase 1,Histone deacetylase 6,0.735
+Histone deacetylase 1,Retinoic acid receptor RXR-alpha,0.755
+Histone deacetylase 1,RAC-alpha serine/threonine-protein kinase,0.758
+Histone deacetylase 1,RuvB-like 2,0.946
+Histone deacetylase 1,Hypoxia-inducible factor 1-alpha,0.983
+Histone deacetylase 1,Histone deacetylase 2,0.999
+Histone deacetylase 2,Histone deacetylase 4,0.827
+Histone deacetylase 2,Signal transducer and activator of transcription 3,0.906
+Histone deacetylase 2,Peroxisome proliferator-activated receptor gamma,0.784
+Histone deacetylase 2,Transcription factor Sp1,0.916
+Histone deacetylase 2,Poly [ADP-ribose] polymerase 1,0.882
+Histone deacetylase 2,Histone deacetylase 6,0.741
+Histone deacetylase 2,Retinoic acid receptor RXR-alpha,0.73
+Histone deacetylase 2,Hypoxia-inducible factor 1-alpha,0.781
+Histone deacetylase 4,Peroxisome proliferator-activated receptor gamma,0.8
+Histone deacetylase 4,Hypoxia-inducible factor 1-alpha,0.955
+Histone deacetylase 6,RAC-alpha serine/threonine-protein kinase,0.712
+Histone deacetylase 6,Hypoxia-inducible factor 1-alpha,0.752
+Hypoxia-inducible factor 1-alpha,Mitogen-activated protein kinase 1,0.985
+Hypoxia-inducible factor 1-alpha,NF-kappa-B inhibitor alpha,0.735
+Hypoxia-inducible factor 1-alpha,Vascular endothelial growth factor receptor 2,0.785
+Hypoxia-inducible factor 1-alpha,Signal transducer and activator of transcription 3,0.994
+Hypoxia-inducible factor 1-alpha,Vascular endothelial growth factor receptor 1,0.735
+Hypoxia-inducible factor 1-alpha,Peroxisome proliferator-activated receptor gamma,0.854
+Hypoxia-inducible factor 1-alpha,Telomerase reverse transcriptase,0.702
+Hypoxia-inducible factor 1-alpha,NAD(P)H dehydrogenase [quinone] 1,0.852
+Hypoxia-inducible factor 1-alpha,Progesterone receptor,0.717
+Hypoxia-inducible factor 1-alpha,Transcription factor Sp1,0.923
+Hypoxia-inducible factor 1-alpha,Serine/threonine-protein kinase mTOR,0.789
+Hypoxia-inducible factor 1-alpha,Poly [ADP-ribose] polymerase 1,0.707
+Hypoxia-inducible factor 1-alpha,Prostaglandin G/H synthase 2,0.831
+Hypoxia-inducible factor 1-alpha,Matrix metalloproteinase-9,0.824
+Hypoxia-inducible factor 1-alpha,Proto-oncogene tyrosine-protein kinase Src,0.872
+Hypoxia-inducible factor 1-alpha,Tyrosine-protein kinase JAK2,0.784
+Hypoxia-inducible factor 1-alpha,Insulin-like growth factor 1 receptor,0.752
+Hypoxia-inducible factor 1-alpha,RuvB-like 2,0.775
+Hypoxia-inducible factor 1-alpha,RAC-alpha serine/threonine-protein kinase,0.932
+Inhibitor of nuclear factor kappa-B kinase subunit alpha,NF-kappa-B inhibitor alpha,0.999
+Inhibitor of nuclear factor kappa-B kinase subunit alpha,Protein kinase C theta type,0.969
+Inhibitor of nuclear factor kappa-B kinase subunit alpha,Serine/threonine-protein kinase mTOR,0.973
+Inhibitor of nuclear factor kappa-B kinase subunit alpha,Proto-oncogene tyrosine-protein kinase Src,0.75
+Inhibitor of nuclear factor kappa-B kinase subunit alpha,RAC-gamma serine/threonine-protein kinase,0.916
+Inhibitor of nuclear factor kappa-B kinase subunit alpha,Mitogen-activated protein kinase kinase kinase 1,0.971
+Inhibitor of nuclear factor kappa-B kinase subunit alpha,RAC-alpha serine/threonine-protein kinase,0.996
+Inhibitor of nuclear factor kappa-B kinase subunit alpha,Inhibitor of nuclear factor kappa-B kinase subunit beta,0.999
+Inhibitor of nuclear factor kappa-B kinase subunit beta,NF-kappa-B inhibitor alpha,0.999
+Inhibitor of nuclear factor kappa-B kinase subunit beta,Protein kinase C theta type,0.981
+Inhibitor of nuclear factor kappa-B kinase subunit beta,Signal transducer and activator of transcription 3,0.749
+Inhibitor of nuclear factor kappa-B kinase subunit beta,Serine/threonine-protein kinase mTOR,0.769
+Inhibitor of nuclear factor kappa-B kinase subunit beta,Proto-oncogene tyrosine-protein kinase Src,0.918
+Inhibitor of nuclear factor kappa-B kinase subunit beta,Mitogen-activated protein kinase kinase kinase 1,0.982
+Inhibitor of nuclear factor kappa-B kinase subunit beta,RAC-gamma serine/threonine-protein kinase,0.917
+Inhibitor of nuclear factor kappa-B kinase subunit beta,RAC-alpha serine/threonine-protein kinase,0.99
+Inosine-5'-monophosphate dehydrogenase 1,Inosine-5'-monophosphate dehydrogenase 2,0.984
+Insulin receptor,Receptor tyrosine-protein kinase erbB-2,0.853
+Insulin receptor,Proto-oncogene tyrosine-protein kinase Src,0.705
+Insulin receptor,Tyrosine-protein kinase JAK2,0.797
+Insulin receptor,Protein kinase C beta type,0.911
+Insulin receptor,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit beta isoform",0.944
+Insulin receptor,Insulin-like growth factor 1 receptor,0.997
+Insulin receptor,Tyrosine-protein phosphatase non-receptor type 1,0.999
+Insulin-like growth factor 1 receptor,Signal transducer and activator of transcription 3,0.921
+Insulin-like growth factor 1 receptor,Receptor tyrosine-protein kinase erbB-2,0.993
+Insulin-like growth factor 1 receptor,Progesterone receptor,0.82
+Insulin-like growth factor 1 receptor,Serine/threonine-protein kinase mTOR,0.872
+Insulin-like growth factor 1 receptor,Tyrosine-protein phosphatase non-receptor type 1,0.993
+Insulin-like growth factor 1 receptor,Proto-oncogene tyrosine-protein kinase Src,0.996
+Insulin-like growth factor 1 receptor,Tyrosine-protein kinase JAK2,0.981
+Insulin-like growth factor 1 receptor,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit beta isoform",0.971
+Interstitial collagenase,Signal transducer and activator of transcription 3,0.869
+Interstitial collagenase,Plasminogen,0.706
+Interstitial collagenase,Prostaglandin G/H synthase 2,0.757
+Interstitial collagenase,Matrix metalloproteinase-9,0.974
+Inward rectifier potassium channel,Inward rectifier potassium channel 2,0.815
+Inward rectifier potassium channel 2,Potassium voltage-gated channel subfamily KQT member 1,0.992
+Inward rectifier potassium channel 2,Voltage gated L-type calcium channel,0.813
+Inward rectifier potassium channel 2,Inward rectifier potassium channel 4,0.958
+Inward rectifier potassium channel 4,Potassium voltage-gated channel subfamily KQT member 1,0.948
+Large ribosomal subunit protein uL3,target_name,0.711
+Large ribosomal subunit protein uL3,"Peptide deformylase, mitochondrial",0.762
+Large ribosomal subunit protein uL3,Tubulin beta chain,0.833
+Lysophosphatidylcholine acyltransferase 1,Lysophosphatidylcholine acyltransferase 2,0.91
+Lysophosphatidylcholine acyltransferase 1,Phospholipase A2,0.731
+Lysophosphatidylcholine acyltransferase 2,Phospholipase A2,0.714
+Macrophage-stimulating protein receptor,Receptor tyrosine-protein kinase erbB-2,0.713
+Mast/stem cell growth factor receptor Kit,Signal transducer and activator of transcription 3,0.96
+Mast/stem cell growth factor receptor Kit,Tyrosine-protein kinase JAK2,0.707
+Mast/stem cell growth factor receptor Kit,Tyrosine-protein kinase Lck,0.724
+Mast/stem cell growth factor receptor Kit,Vascular cell adhesion protein 1,0.729
+Mast/stem cell growth factor receptor Kit,Proto-oncogene tyrosine-protein kinase Src,0.802
+Mast/stem cell growth factor receptor Kit,RAC-alpha serine/threonine-protein kinase,0.818
+Mast/stem cell growth factor receptor Kit,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit gamma isoform",0.852
+Mast/stem cell growth factor receptor Kit,SH2B adapter protein 3,0.875
+Mast/stem cell growth factor receptor Kit,Protein kinase C alpha type,0.912
+Mast/stem cell growth factor receptor Kit,Tyrosine-protein kinase Lyn,0.928
+Mast/stem cell growth factor receptor Kit,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit beta isoform",0.961
+Matrix metalloproteinase-9,NF-kappa-B inhibitor alpha,0.704
+Matrix metalloproteinase-9,Vascular endothelial growth factor receptor 2,0.811
+Matrix metalloproteinase-9,Signal transducer and activator of transcription 3,0.89
+Matrix metalloproteinase-9,Vascular endothelial growth factor receptor 1,0.779
+Matrix metalloproteinase-9,Peroxisome proliferator-activated receptor gamma,0.765
+Matrix metalloproteinase-9,Vascular cell adhesion protein 1,0.748
+Matrix metalloproteinase-9,Plasminogen,0.829
+Matrix metalloproteinase-9,Prostaglandin G/H synthase 2,0.815
+Matrix metalloproteinase-9,RAC-alpha serine/threonine-protein kinase,0.827
+Matrix metalloproteinase-9,Proto-oncogene tyrosine-protein kinase Src,0.97
+Matrix metalloproteinase-9,Neutrophil elastase,0.973
+Mineralocorticoid receptor,Progesterone receptor,0.708
+Mitogen-activated protein kinase 1,Phospholipase A2,0.701
+Mitogen-activated protein kinase 1,Tyrosine-protein kinase ABL1,0.724
+Mitogen-activated protein kinase 1,Peroxisome proliferator-activated receptor gamma,0.736
+Mitogen-activated protein kinase 1,Prostaglandin G/H synthase 2,0.78
+Mitogen-activated protein kinase 1,Tyrosine-protein kinase JAK2,0.794
+Mitogen-activated protein kinase 1,Tyrosine-protein kinase Lyn,0.829
+Mitogen-activated protein kinase 1,Mitogen-activated protein kinase kinase kinase 1,0.858
+Mitogen-activated protein kinase 1,RAC-gamma serine/threonine-protein kinase,0.927
+Mitogen-activated protein kinase 1,Protein kinase C beta type,0.928
+Mitogen-activated protein kinase 1,Protein kinase C alpha type,0.931
+Mitogen-activated protein kinase 1,Proto-oncogene tyrosine-protein kinase Src,0.932
+Mitogen-activated protein kinase 1,Serine/threonine-protein kinase B-raf,0.949
+Mitogen-activated protein kinase 1,Transcription factor Sp1,0.969
+Mitogen-activated protein kinase 1,RAC-alpha serine/threonine-protein kinase,0.988
+Mitogen-activated protein kinase 1,Signal transducer and activator of transcription 3,0.996
+Mitogen-activated protein kinase kinase kinase 1,NF-kappa-B inhibitor alpha,0.776
+Mitogen-activated protein kinase kinase kinase 2,Proto-oncogene tyrosine-protein kinase Src,0.915
+Mitogen-activated protein kinase kinase kinase 2,Tyrosine-protein kinase Lyn,0.77
+Mu-type opioid receptor,Sodium-dependent dopamine transporter,0.704
+Mu-type opioid receptor,Transient receptor potential cation channel subfamily V member 1,0.718
+Muscarinic acetylcholine receptor M1,Muscarinic acetylcholine receptor M3,0.91
+Muscarinic acetylcholine receptor M1,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit gamma isoform",0.707
+Muscarinic acetylcholine receptor M1,Muscarinic acetylcholine receptor M5,0.905
+Muscarinic acetylcholine receptor M1,Muscarinic acetylcholine receptor M2,0.908
+Muscarinic acetylcholine receptor M2,Neuronal acetylcholine receptor subunit beta-2,0.709
+Muscarinic acetylcholine receptor M2,"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit gamma isoform",0.708
+Muscarinic acetylcholine receptor M3,Muscarinic acetylcholine receptor M5,0.933
+NAD(P)H dehydrogenase [quinone] 1,Vitamin K-dependent gamma-carboxylase,0.939
+NAD(P)H dehydrogenase [quinone] 1,RAC-alpha serine/threonine-protein kinase,0.706
+NAD(P)H dehydrogenase [quinone] 1,"Thioredoxin reductase 1, cytoplasmic",0.803
+NAD(P)H dehydrogenase [quinone] 1,Thioredoxin,0.819
+NAD(P)H dehydrogenase [quinone] 1,Vitamin K epoxide reductase complex subunit 1-like protein 1,0.906
+NAD(P)H dehydrogenase [quinone] 1,Vitamin K epoxide reductase complex subunit 1,0.942
+NF-kappa-B inhibitor alpha,Protein kinase C alpha type,0.713
+NF-kappa-B inhibitor alpha,Signal transducer and activator of transcription 3,0.741
+NF-kappa-B inhibitor alpha,Vascular cell adhesion protein 1,0.787
+NF-kappa-B inhibitor alpha,Proto-oncogene tyrosine-protein kinase Src,0.797
+NF-kappa-B inhibitor alpha,RAC-alpha serine/threonine-protein kinase,0.849
+NF-kappa-B inhibitor alpha,Prostaglandin G/H synthase 2,0.856
+Neuronal acetylcholine receptor subunit alpha-2,Neuronal acetylcholine receptor subunit beta-4,0.918
+Neuronal acetylcholine receptor subunit alpha-2,Neuronal acetylcholine receptor subunit alpha-6,0.763
+Neuronal acetylcholine receptor subunit alpha-2,Neuronal acetylcholine receptor subunit alpha-3,0.915
+Neuronal acetylcholine receptor subunit alpha-2,Neuronal acetylcholine receptor subunit beta-2,0.948
+Neuronal acetylcholine receptor subunit alpha-2,Neuronal acetylcholine receptor subunit alpha-4,0.939
+Neuronal acetylcholine receptor subunit alpha-2,Neuronal acetylcholine receptor subunit alpha-7,0.93
+Neuronal acetylcholine receptor subunit alpha-3,Neuronal acetylcholine receptor subunit beta-4,0.998
+Neuronal acetylcholine receptor subunit alpha-3,Neuronal acetylcholine receptor subunit alpha-6,0.826
+Neuronal acetylcholine receptor subunit alpha-3,Tyrosine-protein kinase JAK2,0.902
+Neuronal acetylcholine receptor subunit alpha-3,Neuronal acetylcholine receptor subunit alpha-4,0.915
+Neuronal acetylcholine receptor subunit alpha-3,Neuronal acetylcholine receptor subunit alpha-7,0.918
+Neuronal acetylcholine receptor subunit alpha-3,Neuronal acetylcholine receptor subunit beta-2,0.962
+Neuronal acetylcholine receptor subunit alpha-4,Neuronal acetylcholine receptor subunit beta-4,0.92
+Neuronal acetylcholine receptor subunit alpha-4,Neuronal acetylcholine receptor subunit alpha-6,0.891
+Neuronal acetylcholine receptor subunit alpha-4,Neuronal acetylcholine receptor subunit beta-2,0.994
+Neuronal acetylcholine receptor subunit alpha-4,Tyrosine-protein kinase JAK2,0.903
+Neuronal acetylcholine receptor subunit alpha-4,Neuronal acetylcholine receptor subunit alpha-7,0.925
+Neuronal acetylcholine receptor subunit alpha-6,Neuronal acetylcholine receptor subunit beta-4,0.822
+Neuronal acetylcholine receptor subunit alpha-6,Neuronal acetylcholine receptor subunit beta-2,0.749
+Neuronal acetylcholine receptor subunit alpha-6,Neuronal acetylcholine receptor subunit alpha-7,0.776
+Neuronal acetylcholine receptor subunit alpha-6,Tyrosine-protein kinase JAK2,0.9
+Neuronal acetylcholine receptor subunit alpha-7,Neuronal acetylcholine receptor subunit beta-4,0.924
+Neuronal acetylcholine receptor subunit alpha-7,Neuronal acetylcholine receptor subunit beta-2,0.923
+Neuronal acetylcholine receptor subunit beta-2,Neuronal acetylcholine receptor subunit beta-4,0.91
+Neuronal acetylcholine receptor subunit beta-2,Tyrosine-protein kinase JAK2,0.9
+Neuronal acetylcholine receptor subunit beta-4,Tyrosine-protein kinase JAK2,0.9
+Neutrophil elastase,Prothrombin,0.855
+Neutrophil elastase,Protein-arginine deiminase type-4,0.877
+Nicastrin,Presenilin-1,0.999
+"Nitric oxide synthase, inducible",Signal transducer and activator of transcription 3,0.749
+"Nitric oxide synthase, inducible",RAC-gamma serine/threonine-protein kinase,0.904
+"Nitric oxide synthase, inducible",Prostaglandin G/H synthase 2,0.908
+"Nitric oxide synthase, inducible",RAC-alpha serine/threonine-protein kinase,0.976
+Nuclear receptor subfamily 0 group B member 1,Peroxisome proliferator-activated receptor gamma,0.801
+Nuclear receptor subfamily 0 group B member 1,Steroid hormone receptor ERR2,0.861
+Nuclear receptor subfamily 1 group I member 2,Solute carrier organic anion transporter family member 1B1,0.852
+Nuclear receptor subfamily 1 group I member 2,Solute carrier organic anion transporter family member 1B3,0.811
+Nuclear receptor subfamily 1 group I member 2,Retinoic acid receptor RXR-alpha,0.999
+Orotate phosphoribosyltransferase,Thymidylate synthase,0.856
+Osteocalcin,Vitamin K-dependent gamma-carboxylase,0.964
+Osteocalcin,Peroxisome proliferator-activated receptor gamma,0.709
+Osteocalcin,Vitamin K-dependent protein S,0.741
+Oxysterols receptor LXR-alpha,Peroxisome proliferator-activated receptor gamma,0.865
+Oxysterols receptor LXR-alpha,Retinoic acid receptor RXR-alpha,0.999
+Oxysterols receptor LXR-alpha,Oxysterols receptor LXR-beta,0.915
+Oxysterols receptor LXR-beta,Retinoic acid receptor RXR-alpha,0.998
+"Peroxiredoxin-5, mitochondrial","Thioredoxin reductase 1, cytoplasmic",0.766
+"Peroxiredoxin-5, mitochondrial",Thioredoxin,0.981
+Peroxisome proliferator-activated receptor gamma,Signal transducer and activator of transcription 3,0.826
+Peroxisome proliferator-activated receptor gamma,Prostaglandin G/H synthase 2,0.735
+Peroxisome proliferator-activated receptor gamma,Proto-oncogene tyrosine-protein kinase Src,0.736
+Peroxisome proliferator-activated receptor gamma,RAC-alpha serine/threonine-protein kinase,0.79
+Peroxisome proliferator-activated receptor gamma,Protein kinase C alpha type,0.808
+Peroxisome proliferator-activated receptor gamma,Steroid hormone receptor ERR1,0.898
+Peroxisome proliferator-activated receptor gamma,Transcription factor Sp1,0.916
+Peroxisome proliferator-activated receptor gamma,Serine/threonine-protein kinase mTOR,0.964
+Peroxisome proliferator-activated receptor gamma,Retinoic acid receptor RXR-alpha,0.999
+"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit beta isoform",Receptor-type tyrosine-protein kinase FLT3,0.93
+"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit beta isoform",Platelet-derived growth factor receptor alpha,0.957
+"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit beta isoform",Platelet-derived growth factor receptor beta,0.96
+"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit beta isoform",Vascular endothelial growth factor receptor 3,0.735
+"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit beta isoform",Vascular endothelial growth factor receptor 2,0.932
+"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit beta isoform",Receptor tyrosine-protein kinase erbB-2,0.972
+"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit beta isoform",Vascular endothelial growth factor receptor 1,0.908
+"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit beta isoform",Progesterone receptor,0.92
+"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit beta isoform",Receptor tyrosine-protein kinase erbB-4,0.947
+"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit beta isoform",Serine/threonine-protein kinase mTOR,0.943
+"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit beta isoform",Proto-oncogene tyrosine-protein kinase Src,0.967
+"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit beta isoform",Tyrosine-protein kinase HCK,0.885
+"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit beta isoform",Tyrosine-protein kinase JAK2,0.935
+"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit beta isoform",Tyrosine-protein kinase ITK/TSK,0.919
+"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit beta isoform","Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit gamma isoform",0.997
+"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit beta isoform",Tyrosine-protein kinase Lyn,0.957
+"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit beta isoform",RAC-alpha serine/threonine-protein kinase,0.992
+"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit beta isoform",RAC-gamma serine/threonine-protein kinase,0.964
+"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit gamma isoform",Platelet-derived growth factor receptor beta,0.731
+"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit gamma isoform",Signal transducer and activator of transcription 3,0.71
+"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit gamma isoform",Receptor tyrosine-protein kinase erbB-2,0.704
+"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit gamma isoform",Serine/threonine-protein kinase mTOR,0.857
+"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit gamma isoform",Proto-oncogene tyrosine-protein kinase Src,0.966
+"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit gamma isoform",Tyrosine-protein kinase HCK,0.937
+"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit gamma isoform",Tyrosine-protein kinase JAK2,0.714
+"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit gamma isoform",Tyrosine-protein kinase ITK/TSK,0.938
+"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit gamma isoform",RAC-gamma serine/threonine-protein kinase,0.973
+"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit gamma isoform",Tyrosine-protein kinase Lyn,0.982
+"Phosphatidylinositol 4,5-bisphosphate 3-kinase catalytic subunit gamma isoform",RAC-alpha serine/threonine-protein kinase,0.994
+Phospholipase A2,Prostaglandin G/H synthase 2,0.748
+Phospholipase A2,Prostaglandin G/H synthase 1,0.759
+Plasminogen,Prothrombin,0.826
+Plasminogen,Serine protease 1,0.832
+Platelet-derived growth factor receptor alpha,Receptor tyrosine-protein kinase erbB-2,0.768
+Platelet-derived growth factor receptor alpha,Tyrosine-protein kinase JAK2,0.929
+Platelet-derived growth factor receptor alpha,Proto-oncogene tyrosine-protein kinase Src,0.954
+Platelet-derived growth factor receptor alpha,Signal transducer and activator of transcription 3,0.961
+Platelet-derived growth factor receptor alpha,Platelet-derived growth factor receptor beta,0.989
+Platelet-derived growth factor receptor beta,Tyrosine-protein phosphatase non-receptor type 1,0.708
+Platelet-derived growth factor receptor beta,Receptor tyrosine-protein kinase erbB-2,0.874
+Platelet-derived growth factor receptor beta,Signal transducer and activator of transcription 3,0.915
+Platelet-derived growth factor receptor beta,Tyrosine-protein kinase JAK2,0.954
+Platelet-derived growth factor receptor beta,Vascular endothelial growth factor receptor 2,0.986
+Platelet-derived growth factor receptor beta,Proto-oncogene tyrosine-protein kinase Src,0.999
+Poly [ADP-ribose] polymerase 1,Poly [ADP-ribose] polymerase 2,0.965
+Poly [ADP-ribose] polymerase 1,Receptor tyrosine-protein kinase erbB-2,0.741
+Poly [ADP-ribose] polymerase 1,Progesterone receptor,0.711
+Poly [ADP-ribose] polymerase 1,Tyrosine-protein kinase ABL1,0.789
+Poly [ADP-ribose] polymerase 1,RAC-alpha serine/threonine-protein kinase,0.825
+Poly [ADP-ribose] polymerase 1,Serine/threonine-protein kinase Chk1,0.858
+Presenilin-1,Receptor tyrosine-protein kinase erbB-4,0.713
+Progesterone receptor,Signal transducer and activator of transcription 3,0.858
+Progesterone receptor,Receptor tyrosine-protein kinase erbB-2,0.98
+Progesterone receptor,Trefoil factor 1,0.767
+Progesterone receptor,Receptor tyrosine-protein kinase erbB-4,0.881
+Progesterone receptor,Proto-oncogene tyrosine-protein kinase Src,0.937
+Prostaglandin E2 receptor EP1 subtype,Prostaglandin G/H synthase 1,0.714
+Prostaglandin E2 receptor EP1 subtype,Prostaglandin G/H synthase 2,0.753
+Prostaglandin E2 receptor EP2 subtype,Prostaglandin G/H synthase 2,0.712
+Prostaglandin E2 receptor EP3 subtype,Prostaglandin G/H synthase 1,0.7
+Prostaglandin E2 receptor EP3 subtype,Prostaglandin G/H synthase 2,0.802
+Prostaglandin F2-alpha receptor,Type-1 angiotensin II receptor,0.783
+Prostaglandin G/H synthase 1,Prostaglandin G/H synthase 2,0.946
+Prostaglandin G/H synthase 2,Signal transducer and activator of transcription 3,0.93
+Prostaglandin G/H synthase 2,Receptor tyrosine-protein kinase erbB-2,0.828
+Prostaglandin G/H synthase 2,Vascular cell adhesion protein 1,0.758
+Prostaglandin G/H synthase 2,Xanthine dehydrogenase/oxidase,0.704
+Prostaglandin G/H synthase 2,RAC-alpha serine/threonine-protein kinase,0.775
+Prostaglandin G/H synthase 2,Proto-oncogene tyrosine-protein kinase Src,0.778
+Proteasome subunit beta type-1,Proteasome subunit beta type-9,0.999
+Proteasome subunit beta type-1,Proteasome subunit beta type-8,0.999
+Proteasome subunit beta type-1,Proteasome subunit beta type-2,0.999
+Proteasome subunit beta type-1,Proteasome subunit beta type-10,0.999
+Proteasome subunit beta type-1,Proteasome subunit beta type-5,0.999
+Proteasome subunit beta type-10,Proteasome subunit beta type-5,0.992
+Proteasome subunit beta type-10,Proteasome subunit beta type-8,0.999
+Proteasome subunit beta type-10,Proteasome subunit beta type-9,0.999
+Proteasome subunit beta type-10,Proteasome subunit beta type-2,0.999
+Proteasome subunit beta type-2,Proteasome subunit beta type-5,0.999
+Proteasome subunit beta type-2,Proteasome subunit beta type-8,0.999
+Proteasome subunit beta type-2,Proteasome subunit beta type-9,0.999
+Proteasome subunit beta type-5,Proteasome subunit beta type-8,0.962
+Proteasome subunit beta type-5,Proteasome subunit beta type-9,0.997
+Proteasome subunit beta type-8,Proteasome subunit beta type-9,0.999
+Protein farnesyltransferase subunit beta,Protein farnesyltransferase/geranylgeranyltransferase type-1 subunit alpha,0.999
+Protein kinase C alpha type,Sodium-dependent dopamine transporter,0.913
+Protein kinase C alpha type,Serine/threonine-protein kinase mTOR,0.969
+Protein kinase C alpha type,Voltage gated L-type calcium channel,0.919
+Protein kinase C alpha type,Proto-oncogene tyrosine-protein kinase Src,0.867
+Protein kinase C alpha type,Tyrosine-protein kinase Lyn,0.914
+Protein kinase C alpha type,Serine/threonine-protein kinase B-raf,0.937
+Protein kinase C alpha type,Protein kinase C beta type,0.963
+Protein kinase C beta type,Protein kinase C theta type,0.915
+Protein kinase C beta type,Sodium-dependent dopamine transporter,0.917
+Protein kinase C beta type,Serine/threonine-protein kinase mTOR,0.937
+Protein kinase C beta type,Voltage gated L-type calcium channel,0.902
+Protein kinase C beta type,Serine/threonine-protein kinase B-raf,0.909
+Protein kinase C beta type,Tyrosine-protein kinase Lyn,0.947
+Protein kinase C theta type,Tyrosine-protein kinase Lck,0.94
+Prothrombin,Vitamin K-dependent gamma-carboxylase,0.961
+Prothrombin,Vitamin K-dependent protein C,0.987
+Prothrombin,Serotransferrin,0.725
+Prothrombin,Vitamin K epoxide reductase complex subunit 1,0.836
+Prothrombin,Type-1 angiotensin II receptor,0.92
+Proto-oncogene tyrosine-protein kinase Src,Vascular endothelial growth factor receptor 3,0.708
+Proto-oncogene tyrosine-protein kinase Src,Vascular endothelial growth factor receptor 2,0.998
+Proto-oncogene tyrosine-protein kinase Src,Signal transducer and activator of transcription 3,0.999
+Proto-oncogene tyrosine-protein kinase Src,Receptor tyrosine-protein kinase erbB-2,0.999
+Proto-oncogene tyrosine-protein kinase Src,Transcription factor Sp1,0.947
+Proto-oncogene tyrosine-protein kinase Src,Receptor tyrosine-protein kinase erbB-4,0.916
+Proto-oncogene tyrosine-protein kinase Src,Serine/threonine-protein kinase mTOR,0.793
+Proto-oncogene tyrosine-protein kinase Src,Tyrosine-protein phosphatase non-receptor type 1,0.979
+Proto-oncogene tyrosine-protein kinase Src,Type-1 angiotensin II receptor,0.704
+Proto-oncogene tyrosine-protein kinase Src,Serine/threonine-protein kinase B-raf,0.842
+Proto-oncogene tyrosine-protein kinase Src,Tyrosine-protein kinase HCK,0.876
+Proto-oncogene tyrosine-protein kinase Src,Tyrosine-protein kinase Lck,0.876
+Proto-oncogene tyrosine-protein kinase Src,Tyrosine-protein kinase JAK2,0.917
+Proto-oncogene tyrosine-protein kinase Src,Transient receptor potential cation channel subfamily V member 1,0.934
+Proto-oncogene tyrosine-protein kinase Src,Tyrosine-protein kinase ITK/TSK,0.939
+Proto-oncogene tyrosine-protein kinase Src,Tyrosine-protein kinase Lyn,0.989
+Proto-oncogene tyrosine-protein kinase Src,RAC-alpha serine/threonine-protein kinase,0.995
+Proton-coupled folate transporter,Reduced folate transporter,0.806
+RAC-alpha serine/threonine-protein kinase,Vascular endothelial growth factor receptor 2,0.715
+RAC-alpha serine/threonine-protein kinase,Signal transducer and activator of transcription 3,0.966
+RAC-alpha serine/threonine-protein kinase,Telomerase reverse transcriptase,0.903
+RAC-alpha serine/threonine-protein kinase,Tubulin beta chain,0.81
+RAC-alpha serine/threonine-protein kinase,Serine/threonine-protein kinase mTOR,0.999
+RAC-alpha serine/threonine-protein kinase,Thioredoxin,0.765
+RAC-alpha serine/threonine-protein kinase,Tyrosine-protein kinase JAK2,0.732
+RAC-alpha serine/threonine-protein kinase,Serine/threonine-protein kinase B-raf,0.783
+RAC-alpha serine/threonine-protein kinase,Tyrosine-protein kinase Lyn,0.82
+RAC-alpha serine/threonine-protein kinase,Tyrosine-protein kinase Lck,0.799
+RAC-alpha serine/threonine-protein kinase,RAC-gamma serine/threonine-protein kinase,0.958
+RAC-gamma serine/threonine-protein kinase,Serine/threonine-protein kinase mTOR,0.96
+Receptor tyrosine-protein kinase erbB-2,Receptor-type tyrosine-protein kinase FLT3,0.735
+Receptor tyrosine-protein kinase erbB-2,Vascular endothelial growth factor receptor 3,0.722
+Receptor tyrosine-protein kinase erbB-2,Signal transducer and activator of transcription 3,0.948
+Receptor tyrosine-protein kinase erbB-2,Serine/threonine-protein kinase mTOR,0.725
+Receptor tyrosine-protein kinase erbB-2,Tyrosine-protein kinase ABL1,0.731
+Receptor tyrosine-protein kinase erbB-2,Tyrosine-protein kinase JAK2,0.966
+Receptor tyrosine-protein kinase erbB-2,Receptor tyrosine-protein kinase erbB-4,0.999
+Receptor-type tyrosine-protein kinase FLT3,Tyrosine-protein kinase HCK,0.716
+Receptor-type tyrosine-protein kinase FLT3,Tyrosine-protein kinase Lck,0.762
+Receptor-type tyrosine-protein kinase FLT3,SH2B adapter protein 3,0.777
+Receptor-type tyrosine-protein kinase FLT3,Signal transducer and activator of transcription 3,0.971
+Reduced folate transporter,Thymidylate synthase,0.719
+"Retinal rod rhodopsin-sensitive cGMP 3',5'-cyclic phosphodiesterase subunit gamma","cGMP-specific 3',5'-cyclic phosphodiesterase",0.932
+Ribonucleoside-diphosphate reductase large subunit,Ribonucleoside-diphosphate reductase subunit M2,0.999
+Ribonucleoside-diphosphate reductase large subunit,Thioredoxin,0.856
+Ribonucleoside-diphosphate reductase large subunit,Thymidylate synthase,0.976
+Ribonucleoside-diphosphate reductase subunit M2,Thymidylate synthase,0.805
+Ribonucleoside-diphosphate reductase subunit M2,Thioredoxin,0.811
+RuvB-like 2,Telomerase reverse transcriptase,0.992
+SH2B adapter protein 3,Tyrosine-protein kinase Lck,0.768
+SH2B adapter protein 3,Tyrosine-protein kinase JAK2,0.988
+Serine/threonine-protein kinase B-raf,Signal transducer and activator of transcription 3,0.773
+Serine/threonine-protein kinase B-raf,Telomerase reverse transcriptase,0.815
+Serine/threonine-protein kinase Chk1,Thymidylate synthase,0.863
+Serine/threonine-protein kinase Chk1,Serine/threonine-protein kinase mTOR,0.763
+Serine/threonine-protein kinase Chk1,Ubiquitin-conjugating enzyme E2 T,0.712
+Serine/threonine-protein kinase mTOR,Signal transducer and activator of transcription 3,0.926
+Serine/threonine-protein kinase mTOR,Telomerase reverse transcriptase,0.738
+Serine/threonine-protein kinase mTOR,Tubulin beta chain,0.995
+Serine/threonine-protein kinase mTOR,Tyrosine-protein kinase JAK2,0.742
+Serine/threonine-protein kinase pim-1,Signal transducer and activator of transcription 3,0.733
+Signal transducer and activator of transcription 3,Vascular endothelial growth factor receptor 1,0.734
+Signal transducer and activator of transcription 3,Vascular cell adhesion protein 1,0.818
+Signal transducer and activator of transcription 3,Tyrosine-protein phosphatase non-receptor type 1,0.826
+Signal transducer and activator of transcription 3,Tyrosine-protein kinase HCK,0.911
+Signal transducer and activator of transcription 3,Transcription factor Sp1,0.923
+Signal transducer and activator of transcription 3,Tyrosine-protein kinase Lyn,0.938
+Signal transducer and activator of transcription 3,Tyrosine-protein kinase Lck,0.959
+Signal transducer and activator of transcription 3,Tyrosine-protein kinase JAK2,0.999
+Sodium channel protein type 10 subunit alpha,Voltage-dependent T-type calcium channel subunit alpha-1H,0.713
+Sodium channel protein type 10 subunit alpha,Transient receptor potential cation channel subfamily V member 1,0.806
+Sodium channel protein type 10 subunit alpha,Voltage-gated sodium channel alpha subunit,0.95
+Sodium channel protein type 11 subunit alpha,Voltage-gated sodium channel alpha subunit,0.907
+Solute carrier organic anion transporter family member 1B1,Vitamin K epoxide reductase complex subunit 1,0.784
+Steroid hormone receptor ERR1,Steroid hormone receptor ERR2,0.824
+Thioredoxin,Tyrosine-protein phosphatase non-receptor type 1,0.849
+Thioredoxin,"Thioredoxin reductase 1, cytoplasmic",0.999
+Transient receptor potential cation channel subfamily M member 7,Transient receptor potential cation channel subfamily V member 1,0.747
+Type-1 angiotensin II receptor,Tyrosine-protein kinase JAK2,0.719
+Tyrosine-protein kinase HCK,Tyrosine-protein kinase JAK2,0.842
+Tyrosine-protein kinase HCK,Tyrosine-protein kinase Lck,0.873
+Tyrosine-protein kinase HCK,Tyrosine-protein kinase ITK/TSK,0.946
+Tyrosine-protein kinase HCK,Tyrosine-protein kinase Lyn,0.986
+Tyrosine-protein kinase ITK/TSK,Tyrosine-protein kinase Lyn,0.916
+Tyrosine-protein kinase ITK/TSK,Tyrosine-protein kinase Lck,0.917
+Tyrosine-protein kinase JAK2,Vascular endothelial growth factor receptor 2,0.926
+Tyrosine-protein kinase JAK2,Tyrosine-protein phosphatase non-receptor type 1,0.98
+Tyrosine-protein kinase JAK2,Tyrosine-protein kinase Lyn,0.931
+Tyrosine-protein kinase Lck,Tyrosine-protein kinase Lyn,0.905
+Tyrosine-protein phosphatase non-receptor type 1,Vascular endothelial growth factor receptor 2,0.938
+Ubiquitin-conjugating enzyme E2 T,Ubiquitin-like modifier-activating enzyme 1,0.972
+Vascular endothelial growth factor receptor 1,Vascular endothelial growth factor receptor 3,0.92
+Vascular endothelial growth factor receptor 1,Vascular endothelial growth factor receptor 2,0.994
+Vascular endothelial growth factor receptor 2,Vascular endothelial growth factor receptor 3,0.994
+Vitamin K epoxide reductase complex subunit 1,Vitamin K-dependent gamma-carboxylase,0.998
+Vitamin K epoxide reductase complex subunit 1,Vitamin K-dependent protein S,0.864
+Vitamin K epoxide reductase complex subunit 1,Vitamin K epoxide reductase complex subunit 1-like protein 1,0.949
+Vitamin K epoxide reductase complex subunit 1-like protein 1,Vitamin K-dependent gamma-carboxylase,0.954
+Vitamin K-dependent gamma-carboxylase,Vitamin K-dependent protein C,0.839
+Vitamin K-dependent gamma-carboxylase,Vitamin K-dependent protein S,0.991
+Vitamin K-dependent protein C,Vitamin K-dependent protein S,0.859
+Voltage gated L-type calcium channel,Voltage-dependent T-type calcium channel subunit alpha-1H,0.843
+Voltage-dependent N-type calcium channel subunit alpha-1B,Voltage-dependent T-type calcium channel subunit alpha-1H,0.772
+Voltage-dependent N-type calcium channel subunit alpha-1B,Voltage-dependent R-type calcium channel subunit alpha-1E,0.956
+Voltage-dependent R-type calcium channel subunit alpha-1E,Voltage-dependent T-type calcium channel subunit alpha-1H,0.747
+Voltage-dependent T-type calcium channel subunit alpha-1H,Voltage-gated sodium channel alpha subunit,0.748
