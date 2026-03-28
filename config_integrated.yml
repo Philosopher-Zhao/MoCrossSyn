@@ -1,0 +1,88 @@
+# 整合模型配置文件
+device: 'cuda'
+
+# 路径配置
+paths:
+  drug_smiles: '../Dataset/drug_smiles.csv'
+  drug_combinations: '../Dataset/drug_drug_cell.csv'
+  cell_features: '../Dataset/cell_features.csv'
+  output_dir: 'output'
+  drug_target_interactions: '../Dataset/drug_targets.csv'
+  target_target_interactions: '../Dataset/target_interactions.csv'
+  drug_drug_interactions: '../Dataset/drug_interactions.csv'
+  target_features: '../Dataset/target_features.csv'
+
+# Transformer配置
+transformer:
+  drug_input_dim: 1024  # ECFP指纹维度
+  target_input_dim: 1024  # 靶点特征维度
+  d_model: 64
+  num_heads: 2
+  dff: 512
+  num_layers: 3
+  dropout_rate: 0.2
+
+# 数据配置
+data:
+  atom_dim: 78
+  atom_hid_dim: 64
+  max_atoms: 200
+  cell_feature_dim: 1024
+  num_classes: 1
+  actual_output_dim: 1
+  is_binary: true
+
+# 模型配置
+model:
+  block:
+    num: 2
+    ffn:
+      hidden_dim: 512
+  cross_attn_heads: 2
+  attn_heads: 2
+  is_cat_after_readout: true
+  is_rg: true
+  is_gcn: false
+  is_joint: true
+  is_alpha_learn: true
+  is_init_gru: false
+  alpha: 0.5
+  is_a_: true
+  cell_projection:
+    hidden_dims: [512, 256]
+  mlp:
+    hidden_dim: 512
+
+# 训练配置
+train:
+  batch_size: 64
+  epochs: 1
+  lr: 0.0001
+  dropout: 0.2
+  num_workers: 0
+  optimizer:
+    weight_decay: 0.001
+    betas: [0.9, 0.999]
+    eps: 0.00000001
+  scheduler:
+    enabled: true
+    type: 'ReduceLROnPlateau'
+    factor: 0.5
+    patience: 10
+    min_lr: 0.000001
+  grad_clip:
+    enabled: true
+    max_norm: 1.0
+
+# 早停配置
+early_stopping:
+  enabled: false
+  patience: 20
+  monitor: 'val_f1'
+  mode: 'max'
+
+# 日志配置
+logging:
+  log_dir: 'logs'
+  checkpoint_dir: 'checkpoints'
+  save_checkpoints: true
