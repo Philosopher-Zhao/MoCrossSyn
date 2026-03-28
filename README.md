@@ -12,12 +12,14 @@ The flow chart of MoCrossSyn is as follows:
 ```markdown
 ├── Datasets
 │   ├── features
-│   │   ├── Gene.csv           
-│   │   ├── Target.csv            
-│   │   ├── ECFP.csv            
-│   │   └── Graph.csv             
+│   │   ├── cell_features.csv           
+│   │   ├── drug_target.csv            
+│   │   ├── target_features.csv
+│   │   ├── target_interactions.csv
+│   │   ├── drug_interactions.csv    
+│   │   └── drug_smiles.csv             
 │   └── samples					  
-│       └── samples.csv            
+│       └── drug_drug_cell.csv            
 ├── config_intergrated.yml                     
 ├── config.py                      
 ├── data_preprocess.py                         
