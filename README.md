@@ -5,7 +5,7 @@
 
 The flow chart of MoCrossSyn is as follows:
 
-![示例图片](./框架图.png)
+![示例图片](./框架.png)
 
 ## Directory Structure
 
