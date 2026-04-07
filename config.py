@@ -1,12 +1,10 @@
 import os
 import yaml
 
-# 全局配置变量
 _CONFIG = None
 
 
 def load_integrated_config(config_path='config_integrated.yml'):
-    """加载并解析整合模型的配置文件"""
     global _CONFIG
 
     if not os.path.exists(config_path):
@@ -45,18 +43,17 @@ def load_integrated_config(config_path='config_integrated.yml'):
 
 
 def get_default_config():
-    """返回默认配置"""
     return {
         'device': 'cuda',
         'paths': {
-            'drug_smiles': '../Dataset/drug_smiles.csv',
-            'drug_combinations': '../Dataset/drug_drug_cell.csv',
-            'cell_features': '../Dataset/cell_features.csv',
+            'drug_smiles': './Dataset/features/drug_smiles.csv',
+            'drug_combinations': './Dataset/samples/drug_drug_cell.csv',
+            'cell_features': './Dataset/features/cell_features.csv',
             'output_dir': 'output',
-            'drug_target_interactions': '../Dataset/drug_targets.csv',
-            'target_target_interactions': '../Dataset/target_interactions.csv',
-            'drug_drug_interactions': '../Dataset/drug_interactions.csv',
-            'target_features': '../Dataset/target_features.csv'
+            'drug_target_interactions': './Dataset/features/drug_targets.csv',
+            'target_target_interactions': './Dataset/features/target_interactions.csv',
+            'drug_drug_interactions': './Dataset/features/drug_interactions.csv',
+            'target_features': './Dataset/features/target_features.csv'
         },
         'transformer': {
             'drug_input_dim': 1024,
