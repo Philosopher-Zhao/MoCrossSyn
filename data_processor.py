@@ -184,7 +184,7 @@ class MolecularGraphProcessor:
 
             np.fill_diagonal(adj_matrix, 1)
 
-            return features, adj_matrix, motif_graphs, num_atoms  # 新增返回原子节点数
+            return features, adj_matrix, motif_graphs, num_atoms
 
         except Exception as e:
             print(f"处理SMILES {smiles} 时出错: {e}")
@@ -260,8 +260,8 @@ class MolecularGraphProcessor:
                     'drug2': drug2,
                     'cell_line': cell_line,
                     'cell_features': cell_features,
-                    'drug1_nodes': n1_atoms,  # 修正：存储原子节点数
-                    'drug2_nodes': n2_atoms,  # 新增：存储药物2的原子节点数（可选，模型目前只用drug1_nodes）
+                    'drug1_nodes': n1_atoms,
+                    'drug2_nodes': n2_atoms,
                     'motif_graphs_drug1': motif_graphs1,
                     'motif_graphs_drug2': motif_graphs2
                 })
