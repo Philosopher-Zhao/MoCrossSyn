@@ -1,16 +1,7 @@
-#!/usr/bin/env python3
-"""
-整合模型训练脚本
-使用方法: python main.py
-"""
-
 import sys
 import os
-
 # 添加当前目录到Python路径
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
-
-
 def check_dependencies():
     """检查依赖包"""
     required_packages = [
@@ -21,7 +12,6 @@ def check_dependencies():
         'rdkit',
         'yaml'
     ]
-
     missing_packages = []
     for package in required_packages:
         try:
@@ -56,7 +46,7 @@ def main():
 
     # 检查配置文件
     print("\n检查配置文件...")
-    config_path = '../模型优化/config_integrated.yml'
+    config_path = './config_integrated.yml'
     if not os.path.exists(config_path):
         print(f"配置文件 {config_path} 不存在")
         print("将使用默认配置运行...")
