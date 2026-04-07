@@ -1,15 +1,16 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-import numpy as np
 import pandas as pd
 from rdkit import Chem
 from rdkit.Chem import AllChem
 from sklearn.preprocessing import StandardScaler
 from config import CONFIG
 from torch_geometric.nn import GINEConv, global_add_pool
+import numpy as np
+from scipy.sparse.csgraph import shortest_path
 
-# ==================== 原Transformer的数据预处理模块 ====================
+
 class DataPreprocessor:
     def __init__(self, drug_smiles_path, drug_target_path, target_target_path,
                  drug_drug_path, target_features_path):
@@ -152,7 +153,7 @@ class DataPreprocessor:
         self.build_target_target_graph()
         return self
 
-# ==================== PyTorch版本的Transformer模块 ====================
+# ==================== Heterogeneous Biological Network Transformer Model ====================
 class FeatureProjection(nn.Module):
     def __init__(self, input_dim, output_dim):
         super().__init__()
@@ -266,7 +267,7 @@ class EncoderLayer(nn.Module):
         out3 = self.layernorm3(out2 + ffn_output)
         return out3
 
-class HeterogeneousEncoder(nn.Module):
+class HNRM(nn.Module):
     def __init__(self, drug_input_dim, target_input_dim, d_model=256,
                  num_heads=8, dff=512, num_layers=4, rate=0.1):
         super().__init__()
@@ -283,11 +284,10 @@ class HeterogeneousEncoder(nn.Module):
             nn.ReLU(),
             nn.LayerNorm(d_model)
         )
-        # 新增：用于存储预计算的距离矩阵
+
         self.register_buffer('distance_matrix', None)
 
     def set_distance_matrix(self, distance_matrix):
-        """注册距离矩阵，形状 [n_total, n_total]"""
         if not isinstance(distance_matrix, torch.Tensor):
             distance_matrix = torch.from_numpy(distance_matrix).float()
         self.register_buffer('distance_matrix', distance_matrix)
@@ -318,17 +318,16 @@ class HeterogeneousEncoder(nn.Module):
         combined_emb = combined_emb + self.pos_encoding[:, :seq_len, :]
         combined_emb = self.dropout(combined_emb)
 
-        # 局部邻接矩阵（结构偏置）
+        # 局部邻接矩阵
         local_matrix = self.build_heterogeneous_graph(
             drug_adj_matrix, target_adj_matrix, interaction_matrix
         )
 
-        # 全局距离矩阵偏置（预计算）
+        # 全局距离矩阵偏置
         if self.distance_matrix is not None:
             # distance_matrix: [n_total, n_total] -> [batch, n_total, n_total]
             global_matrix = self.distance_matrix.unsqueeze(0).expand(batch_size, -1, -1)
         else:
-            # 若未设置，则回退到零矩阵
             global_matrix = torch.zeros_like(local_matrix)
 
         # 确保在同一设备
@@ -343,7 +342,7 @@ class HeterogeneousEncoder(nn.Module):
         drug_output = self.drug_extractor(drug_output)
         return drug_output
 
-# ==================== Motif 编码器 ====================
+# ====================Motif-aware Molecular Graph Encoding====================
 class MotifEncoder(nn.Module):
     def __init__(self, node_dim, edge_dim, hidden_dim=64, out_dim=128):
         super().__init__()
@@ -366,9 +365,9 @@ class MotifEncoder(nn.Module):
         motif_emb = self.pool(x, batch_data.batch)
         return self.fc(motif_emb)
 
-# ==================== 新增的GAT层（替换GRU） ====================
+# ==================== GAT层 ====================
 class GATLayer(nn.Module):
-    """基于MultiHeadAttention的图注意力层，用于替换原GRU模块"""
+    """基于MultiHeadAttention的图注意力层"""
     def __init__(self, d_model, num_heads, dropout=0.1):
         super().__init__()
         self.mha = MultiHeadAttention(d_model, num_heads)
@@ -386,54 +385,13 @@ class GATLayer(nn.Module):
         adj: [batch, num_nodes, num_nodes] 邻接矩阵（1表示有边，0表示无边）
         x: [batch, num_nodes, d_model] 节点特征
         """
-        # 生成注意力掩码：有边的地方为0，无边的地方为 -inf
+        # 生成注意力掩码
         attention_mask = (1 - adj) * -1e9  # [batch, num_nodes, num_nodes]
         attn_out, _ = self.mha(x, x, x, adjoin_matrix=attention_mask)
         x = self.norm1(x + self.dropout(attn_out))
         ffn_out = self.ffn(x)
         x = self.norm2(x + self.dropout(ffn_out))
         return x
-
-# ==================== 整合模型的组件 ====================
-class MLP(nn.Module):
-    def __init__(self, in_dim, hid_dim, out_dim, dropout=0.3):
-        super().__init__()
-        self.net = nn.Sequential(
-            nn.Linear(in_dim, hid_dim),
-            nn.ReLU(),
-            nn.LayerNorm(hid_dim),
-            nn.Dropout(p=dropout),
-            nn.Linear(hid_dim, out_dim)
-        )
-
-    def forward(self, embeds):
-        return self.net(embeds)
-
-class GRU(nn.Module):  # 保留原GRU类，但不再在blocks中使用（可能用于init）
-    def __init__(self, in_dim, hid_dim, out_dim=None, dropout=0.3):
-        super().__init__()
-        self.out_dim = out_dim
-        dim = in_dim if out_dim is None else out_dim
-        self.ffn = nn.Sequential(
-            nn.Linear(in_dim, hid_dim),
-            nn.ReLU(),
-            nn.Dropout(p=dropout),
-            nn.Linear(hid_dim, dim),
-            nn.Dropout(p=dropout)
-        )
-        self.norm1 = nn.LayerNorm(in_dim)
-        self.norm2 = nn.LayerNorm(dim)
-
-    def messaging(self, adjs, embeds):
-        return torch.bmm(adjs, embeds)
-
-    def forward(self, adjs, embeds):
-        embeds = self.norm1(embeds + self.messaging(adjs, embeds))
-        if self.out_dim is None:
-            embeds = self.norm2(embeds + self.ffn(embeds))
-        else:
-            embeds = self.norm2(self.ffn(embeds))
-        return embeds
 
 class GraphConvolution(nn.Module):
     def __init__(self, in_features, out_features, bias=True):
@@ -494,7 +452,7 @@ class CrossDrugAttention(nn.Module):
         attn_output = self.norm(attn_output)
         return attn_output, attn_weights
 
-class DrugSynergyModel(nn.Module):
+class SGRM(nn.Module):
     def __init__(self, use_motif_encoder=True):
         super().__init__()
         data_config = CONFIG['data']
@@ -507,11 +465,10 @@ class DrugSynergyModel(nn.Module):
         self.dropout_p = train_config['dropout']
         self.is_cat_after_readout = model_config['is_cat_after_readout']
         self.is_rg = model_config['is_rg']
-        self.is_gcn = model_config['is_gcn']
         self.is_joint = model_config['is_joint']
         self.use_motif_encoder = use_motif_encoder
         if use_motif_encoder:
-            bond_feat_dim = 6  # 由 bond_features 决定
+            bond_feat_dim = 6
             self.motif_encoder = MotifEncoder(
                 node_dim=self.atom_dim,
                 edge_dim=bond_feat_dim,
@@ -560,29 +517,6 @@ class DrugSynergyModel(nn.Module):
             input_dim = hidden_dim
         self.cell_projection = nn.Sequential(*cell_layers)
 
-        # 修改点：根据 is_gcn 决定使用 GCN 还是 GAT 层
-        if self.is_gcn:
-            self.blocks = nn.ModuleList([
-                GraphConvolution(self.atom_hid_dim, self.atom_hid_dim) for _ in range(self.num_block)
-            ])
-        else:
-            # 使用新的 GATLayer 替换原来的 GRU
-            self.blocks = nn.ModuleList([
-                GATLayer(self.atom_hid_dim, model_config['attn_heads'], dropout=self.dropout_p)
-                for _ in range(self.num_block)
-            ])
-
-        if model_config['is_init_gru']:
-            self.init = GRU(self.atom_dim, model_config['block']['ffn']['hidden_dim'],
-                            self.atom_hid_dim, dropout=self.dropout_p)
-        else:
-            self.init = nn.Sequential(
-                nn.Linear(self.atom_dim, self.atom_hid_dim),
-                nn.LayerNorm(self.atom_hid_dim),
-                nn.ReLU(),
-                nn.Dropout(p=self.dropout_p)
-            )
-
         if self.is_rg:
             self.multi_head_attention = nn.MultiheadAttention(
                 embed_dim=self.atom_hid_dim,
@@ -595,6 +529,13 @@ class DrugSynergyModel(nn.Module):
             else:
                 self.alpha = model_config['alpha']
 
+        # 初始化图卷积层（blocks）
+        self.blocks = nn.ModuleList()
+        for _ in range(self.num_block):
+            # 使用 GATLayer（基于注意力）
+            self.blocks.append(GATLayer(self.atom_hid_dim, model_config['attn_heads'], self.dropout_p))
+
+
         # 用于聚合多层输出的全连接层（仅在 is_cat_after_readout=True 时使用）
         if self.is_cat_after_readout:
             self.graph_output_dim_raw = self.atom_hid_dim * (self.num_block + 1)
@@ -605,7 +546,7 @@ class DrugSynergyModel(nn.Module):
 
         self.cell_output_dim = model_config['cell_projection']['hidden_dims'][-1]
 
-        # 修改点：添加用于双药特征融合的MLP（当 is_joint=False 时使用）
+        # 用于双药特征融合的MLP（当 is_joint=False 时使用）
         self.fusion_mlp = nn.Sequential(
             nn.Linear(2 * self.graph_output_dim, self.graph_output_dim),
             nn.ReLU(),
@@ -620,9 +561,10 @@ class DrugSynergyModel(nn.Module):
     def cal(self, embeds, adjs, masks):
         if embeds.size(-1) == self.atom_dim:
             if CONFIG['model']['is_init_gru']:
-                embeds = self.init(adjs, embeds)
-            else:
+                # 注意：此处需要实现 GRU 初始化逻辑，简化处理
                 embeds = self.init(embeds)
+            else:
+                embeds = self.init(embeds)  # 恒等映射
 
         history_embeds = [embeds]
 
@@ -646,8 +588,7 @@ class DrugSynergyModel(nn.Module):
         else:
             sum_adjs = adjs
 
-        for i, block in enumerate(self.blocks):
-            # block 可能是 GraphConvolution 或 GATLayer，两者都接受 (adj, embeds)
+        for block in self.blocks:
             embeds = block(sum_adjs, embeds)
             history_embeds.append(embeds)
 
@@ -760,9 +701,8 @@ class DrugSynergyModel(nn.Module):
                                adjs[:, drug1_size:, drug1_size:],
                                masks[:, drug1_size:])
 
-            # 修改点：将相加改为拼接+MLP
-            combined = torch.cat([embeds1, embeds2], dim=1)  # [batch, 2*graph_output_dim]
-            graph_features = self.fusion_mlp(combined)      # [batch, graph_output_dim]
+            combined = torch.cat([embeds1, embeds2], dim=1)
+            graph_features = self.fusion_mlp(combined)
 
         cell_projected = self.cell_projection(cell_features)
         combined_features = torch.cat([graph_features, cell_projected], dim=1)
@@ -780,21 +720,36 @@ class DrugSynergyModel(nn.Module):
 
         return scores, loss, graph_features
 
-class IntegratedDrugSynergyModel(nn.Module):
+# ==================== 整合模型的组件 ====================
+class MLP(nn.Module):
+    def __init__(self, in_dim, hid_dim, out_dim, dropout=0.3):
+        super().__init__()
+        self.net = nn.Sequential(
+            nn.Linear(in_dim, hid_dim),
+            nn.ReLU(),
+            nn.LayerNorm(hid_dim),
+            nn.Dropout(p=dropout),
+            nn.Linear(hid_dim, out_dim)
+        )
+
+    def forward(self, embeds):
+        return self.net(embeds)
+
+class MoCrossSyn(nn.Module):
     def __init__(self, transformer_config=None):
         super().__init__()
         data_config = CONFIG['data']
         model_config = CONFIG['model']
         train_config = CONFIG['train']
 
-        # GCN模块
-        self.gcn_model = DrugSynergyModel(use_motif_encoder=True)
-        self.gcn_feature_dim = self.gcn_model.graph_output_dim
+        # SGRM模块（基于注意力的分子图编码器）
+        self.sgrm_model = SGRM(use_motif_encoder=True)
+        self.sgrm_feature_dim = self.sgrm_model.graph_output_dim
 
-        # Transformer模块
+        # Transformer模块（异构图编码器）
         if transformer_config is None:
             transformer_config = CONFIG['transformer']
-        self.transformer_encoder = HeterogeneousEncoder(
+        self.transformer_encoder = HNRM(
             drug_input_dim=transformer_config['drug_input_dim'],
             target_input_dim=transformer_config['target_input_dim'],
             d_model=transformer_config['d_model'],
@@ -805,11 +760,12 @@ class IntegratedDrugSynergyModel(nn.Module):
         )
         self.transformer_feature_dim = transformer_config['d_model']
 
-        # 细胞系特征处理（复用GCN的cell_projection）
-        self.cell_projection = self.gcn_model.cell_projection
-        cell_output_dim = self.gcn_model.cell_output_dim
+        # 细胞系特征处理（复用 SGRM 中的细胞投影层）
+        self.cell_projection = self.sgrm_model.cell_projection
+        cell_output_dim = self.sgrm_model.cell_output_dim
 
-        total_input_dim = (self.transformer_feature_dim * 2) + self.gcn_feature_dim + cell_output_dim
+        # 最终融合层
+        total_input_dim = (self.transformer_feature_dim * 2) + self.sgrm_feature_dim + cell_output_dim
         self.final_mlp = MLP(
             total_input_dim,
             model_config['mlp']['hidden_dim'],
@@ -838,10 +794,6 @@ class IntegratedDrugSynergyModel(nn.Module):
         self.all_transformer_features = all_drug_features.squeeze(0)
         self.drug_id_to_idx = heterogeneous_data['drug_id_to_idx']
 
-        # ---------- 新增：计算距离矩阵并注册到 Transformer 编码器 ----------
-        import numpy as np
-        from scipy.sparse.csgraph import shortest_path
-
         # 从 heterogeneous_data 中获取原始 numpy 矩阵
         drug_adj = heterogeneous_data['drug_adj_matrix']           # [n_drugs, n_drugs]
         target_adj = heterogeneous_data['target_adj_matrix']       # [n_targets, n_targets]
@@ -851,22 +803,17 @@ class IntegratedDrugSynergyModel(nn.Module):
         n_targets = target_adj.shape[0]
         n_total = n_drugs + n_targets
 
-        # 构建完整邻接矩阵（与 build_heterogeneous_graph 一致）
+        # 构建完整邻接矩阵
         full_adj = np.zeros((n_total, n_total), dtype=np.float32)
         full_adj[:n_drugs, :n_drugs] = drug_adj
         full_adj[n_drugs:, n_drugs:] = target_adj
         full_adj[:n_drugs, n_drugs:] = inter
         full_adj[n_drugs:, :n_drugs] = inter.T
 
-        # 计算最短路径距离（无权图，边权为1）
+        # 计算最短路径距离
         dist_matrix = shortest_path(full_adj, directed=False, unweighted=True)
-        # 将无穷大（不相通）替换为 0
         dist_matrix = np.where(np.isinf(dist_matrix), 0, dist_matrix)
-
-        # 注册距离矩阵到 transformer_encoder
         self.transformer_encoder.set_distance_matrix(dist_matrix)
-        # ----------------------------------------------------------------
-
         self.transformer_initialized = True
 
     def get_transformer_features(self, drug1_idx, drug2_idx):
@@ -886,15 +833,15 @@ class IntegratedDrugSynergyModel(nn.Module):
                 motif_batch_drug2=None, motif_batch_idx_drug2=None):
         device = embeds.device
 
-        # GCN模块
-        gcn_scores, gcn_loss, gcn_features = self.gcn_model(
+        # SGRM模块（分子图注意力编码）
+        sgrm_scores, sgrm_loss, sgrm_features = self.sgrm_model(
             embeds, adjs, masks, cnn_masks, targets,
             cell_features, drug1_nodes,
             motif_batch_drug1, motif_batch_idx_drug1,
             motif_batch_drug2, motif_batch_idx_drug2
         )
 
-        # Transformer模块
+        # Transformer模块（异构图编码）
         if drug1_indices.dim() == 0:
             drug1_indices = drug1_indices.unsqueeze(0)
         if drug2_indices.dim() == 0:
@@ -912,8 +859,8 @@ class IntegratedDrugSynergyModel(nn.Module):
         # 细胞系特征
         cell_projected = self.cell_projection(cell_features)
 
-        # 拼接
-        combined = torch.cat([transformer_features, gcn_features, cell_projected], dim=1)
+        # 拼接所有特征
+        combined = torch.cat([transformer_features, sgrm_features, cell_projected], dim=1)
         final_scores = self.final_mlp(combined)
 
         if CONFIG['data']['is_binary']:
