@@ -3,16 +3,16 @@ device: 'cuda'
 
 # 路径配置
 paths:
-  drug_smiles: '../Dataset/drug_smiles.csv'
-  drug_combinations: '../Dataset/drug_drug_cell.csv'
-  cell_features: '../Dataset/cell_features.csv'
+  drug_smiles: './Dataset/features/drug_smiles.csv'
+  drug_combinations: './Dataset/samples/drug_drug_cell.csv'
+  cell_features: './Dataset/features/cell_features.csv'
   output_dir: 'output'
-  drug_target_interactions: '../Dataset/drug_targets.csv'
-  target_target_interactions: '../Dataset/target_interactions.csv'
-  drug_drug_interactions: '../Dataset/drug_interactions.csv'
-  target_features: '../Dataset/target_features.csv'
+  drug_target_interactions: './Dataset/features/drug_targets.csv'
+  target_target_interactions: './Dataset/features/target_interactions.csv'
+  drug_drug_interactions: './Dataset/features/drug_interactions.csv'
+  target_features: './Dataset/features/target_features.csv'
 
-# Transformer配置
+# Heterogeneous Biological Network Transformer配置
 transformer:
   drug_input_dim: 1024  # ECFP指纹维度
   target_input_dim: 1024  # 靶点特征维度
@@ -22,7 +22,7 @@ transformer:
   num_layers: 3
   dropout_rate: 0.2
 
-# 数据配置
+# Motif-aware Molecular Graph Encoding配置
 data:
   atom_dim: 78
   atom_hid_dim: 64
@@ -31,8 +31,6 @@ data:
   num_classes: 1
   actual_output_dim: 1
   is_binary: true
-
-# 模型配置
 model:
   block:
     num: 2
@@ -42,10 +40,8 @@ model:
   attn_heads: 2
   is_cat_after_readout: true
   is_rg: true
-  is_gcn: false
   is_joint: true
   is_alpha_learn: true
-  is_init_gru: false
   alpha: 0.5
   is_a_: true
   cell_projection:
@@ -56,7 +52,7 @@ model:
 # 训练配置
 train:
   batch_size: 64
-  epochs: 1
+  epochs: 100
   lr: 0.0001
   dropout: 0.2
   num_workers: 0
