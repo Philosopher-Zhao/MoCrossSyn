@@ -9,7 +9,6 @@ def load_integrated_config(config_path='config_integrated.yml'):
 
     if not os.path.exists(config_path):
         print(f"警告: 配置文件 {config_path} 不存在，使用默认配置")
-        # 创建默认配置
         config = get_default_config()
         _CONFIG = config
         return config
