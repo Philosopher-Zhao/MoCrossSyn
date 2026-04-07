@@ -34,7 +34,7 @@ class IntegratedDrugSynergyDataset(Dataset):
             'drug2': self.data['drug2'][idx],
             'cell_line': self.data.get('cell_line', [''])[idx] if 'cell_line' in self.data else '',
             'cell_features': self.data['cell_features'][idx],
-            'drug1_nodes': self.data['drug1_nodes'][idx],  # 原子节点数
+            'drug1_nodes': self.data['drug1_nodes'][idx],
             'motif_graphs_drug1': self.data.get('motif_graphs_drug1', [])[idx] if 'motif_graphs_drug1' in self.data else [],
             'motif_graphs_drug2': self.data.get('motif_graphs_drug2', [])[idx] if 'motif_graphs_drug2' in self.data else []
         }
@@ -83,7 +83,7 @@ def integrated_collate_fn(batch):
         adj_matrix = sample['adj_matrix']
         label = sample['label']
         cell_features = sample['cell_features']
-        drug1_nodes = sample['drug1_nodes']  # 原子节点数
+        drug1_nodes = sample['drug1_nodes']
         drug1_idx = sample.get('drug1_idx', -1)
         drug2_idx = sample.get('drug2_idx', -1)
         drug1_name = sample['drug1']
@@ -98,7 +98,7 @@ def integrated_collate_fn(batch):
 
         targets_batch.append(label)
         cell_features_batch[i] = torch.tensor(cell_features, dtype=torch.float)
-        drug1_nodes_batch[i] = min(drug1_nodes, max_atoms)  # 原子节点数，不能超过max_atoms
+        drug1_nodes_batch[i] = min(drug1_nodes, max_atoms)
         drug1_indices_batch[i] = drug1_idx
         drug2_indices_batch[i] = drug2_idx
         drug1_names_batch.append(drug1_name)
